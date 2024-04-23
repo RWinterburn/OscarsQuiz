@@ -4,3 +4,11 @@ font-family: sans-serif}
 h1 {text-align: center;
 padding: 5px 5px 5px 5px;
 background-color: gold;}
+
+.quiz{align-content: center;
+text-align: center;
+background-color: gold;
+border-radius: 5%;
+margin: 0 auto;
+width : 500px;
+height: 700px;}
