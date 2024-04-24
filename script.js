@@ -21,7 +21,13 @@ var length1 = allQuestions.length;
 var correctAnswer = 0;
 
 function populateQuestion() {
-  // code to populate the question goes here
+  var currentQuestion = allQuestions[questionIndex];
+  questionTitle.textContent = currentQuestion.Question;
+  for (var i = 0; i < currentQuestion.Answers.length; i++) {
+    var option = document.createElement("option");
+    option.textContent = currentQuestion.Answers[i];
+    selectionList.appendChild(option);
+  }
 }
 
 
