@@ -25,3 +25,19 @@ cursor: pointer;}
 .btn:hover{
   background-color: rgba(255, 217, 0, 0.384);
 }
+
+#next{background-color: rgb(229, 223, 160);
+  color: black;
+  width: 50%;
+  margin: 2px;
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+
+}
+
+#next:hover{background-color: rgba(255, 217, 0, 0.384);
+
+}
