@@ -1,25 +1,33 @@
-var questions = [
-  { question: "who hosted the 2024 Oscars?",
-  answers : [
-    {text: "Jimmy Hendrix", correct : false},
-    {text: "Jimmy Tallon", correct : false},
-    {text: "Jimmy Fallon", correct : false},
-    {text: "Jimmy Kimmel", correct : true},
-   ]
-
+var quiz = [{
+  Question: "Who hosted the 2024 Oscars?",
+  Answers: ["Jimmy Fallon", "Jimmy Hendrix", "Jimmy Kimmel", "Jimmy Tallon"]
 },
-{ question: "who won Best Actress?",
-answers : [
-  {text: "Jimmy Hendrix", correct : false},
-  {text: "Jimmy Tallon", correct : false},
-  {text: "Emma Stone", correct : true},
-  {text: "Jimmy Kimmel", correct : true},
- ]
+{Question: "Who won best actor?",
+Answers: ["Cillian Murphy", "Robert Downey Jr", "Emma Stone", "Jimmy Fallon"]},
 
-}
+{Question: "Who won best actress?",
+Answers:["Emma Stone", "Colin Farrell", "Lindsay Lohan", "Michelle Keegan"]}
+
+
 ];
 
-var questionElement = document.getElementById("question")
+var questionTitle = document.getElementById("questionTitle");
+var selectionList = document.getElementById("selectionList");
+var nextButton = document.getElementById("nextButton");
+
+
+var questionIndex = 0;
+var length1 = allQuestions.length;
+var correctAnswer = 0;
+
+function populateQuestion() {
+  // code to populate the question goes here
+}
+
+
+
+
+
     
     
 
