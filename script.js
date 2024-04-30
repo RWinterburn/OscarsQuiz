@@ -15,8 +15,18 @@ const questions = [
     correct: 1
   },
 ]
+let currentQuestion = 0;
+function showQuestion(){
+  const questionText = document.getElementById("question")
+questionText.innerText=questions[currentQuestion].question;
 
-document.getElementById("question").questions.innerHtml;
+const choices = document.getElementById("choices");
+choices.forEach((choice, index)=> {
+  choice.innerText = questions[currentQuestion].currentQuestion[index];
+})}
+
+
+showQuestion();
 
 
 
