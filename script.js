@@ -1,7 +1,7 @@
 const questions = [
   {
     question: "Who hosted the 2024 oscars?",
-    choices: ["London", "Paris", "Nairobi"],
+    choices: ["Jimmy Kimmel", "Jimmy Fallon", "Jim Talent"],
     correct: 0
   },
   {
@@ -15,6 +15,8 @@ const questions = [
     correct: 1
   },
 ]
+
+document.getElementById("question").questions.innerHtml;
 
 
 
