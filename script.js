@@ -1,34 +1,32 @@
-var quiz = [{
-  Question: "Who hosted the 2024 Oscars?",
-  Answers: ["Jimmy Fallon", "Jimmy Hendrix", "Jimmy Kimmel", "Jimmy Tallon"]
-},
-{Question: "Who won best actor?",
-Answers: ["Cillian Murphy", "Robert Downey Jr", "Emma Stone", "Jimmy Fallon"]},
+var question1 = { 
+  question: "Who hosted the 2024 Oscars",
+  choices : ["Jimmy Kimmel", "Jimmy Fallon", "Jimmy Tallon", "Jim Michael"],
+  answer: "Jimmy Kimmel"
+}
 
-{Question: "Who won best actress?",
-Answers:["Emma Stone", "Colin Farrell", "Lindsay Lohan", "Michelle Keegan"]}
+document.getElementById("question").innerText = question1.question;
+document.getElementById("choice1").innerText = question1.choices[0];
+document.getElementById("choice2").innerText = question1.choices[1];
+document.getElementById("choice3").innerText = question1.choices[2];
+document.getElementById("choice4").innerText = question1.choices[3];
 
-
-];
-
-var questionTitle = document.getElementById("questionTitle");
-var selectionList = document.getElementById("selectionList");
-var nextButton = document.getElementById("nextButton");
-
-
-var questionIndex = 0;
-var length1 = allQuestions.length;
-var correctAnswer = 0;
-
-function populateQuestion() {
-  var currentQuestion = allQuestions[questionIndex];
-  questionTitle.textContent = currentQuestion.Question;
-  for (var i = 0; i < currentQuestion.Answers.length; i++) {
-    var option = document.createElement("option");
-    option.textContent = currentQuestion.Answers[i];
-    selectionList.appendChild(option);
+function checkAnswer(userAnswer){
+  if (userAnswer === question1.answer){
+    alert("correct!");
+  }
+  else {
+    alert("wrong!");
   }
 }
+// var questionTitle = document.getElementById("question");
+// var selectionList = document.getElementById("Answers");
+// var nextButton = document.getElementById("next");
+
+// if(questionTitle === correctAnswer)
+
+
+
+
 
 
 
