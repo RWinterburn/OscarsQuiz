@@ -1,28 +1,24 @@
-var question1 = { 
-  question: "Who hosted the 2024 Oscars",
-  choices : ["Jimmy Kimmel", "Jimmy Fallon", "Jimmy Tallon", "Jim Michael"],
-  answer: "Jimmy Kimmel"
-}
+const questions = [
+  {
+    question: "Who hosted the 2024 oscars?",
+    choices: ["London", "Paris", "Nairobi"],
+    correct: 0
+  },
+  {
+    question: "Who won best actor?",
+    choices: ["Killem All Merfield", "Tony Stark", "Cillian Murphy"],
+    correct: 2
+  },
+  {
+    question: "who won best actress?",
+    choices: ["Emma Stoned", "Emma Stone", "Emma Baked"],
+    correct: 1
+  },
+]
 
-document.getElementById("question").innerText = question1.question;
-document.getElementById("choice1").innerText = question1.choices[0];
-document.getElementById("choice2").innerText = question1.choices[1];
-document.getElementById("choice3").innerText = question1.choices[2];
-document.getElementById("choice4").innerText = question1.choices[3];
 
-function checkAnswer(userAnswer){
-  if (userAnswer === question1.answer){
-    alert("correct!");
-  }
-  else {
-    alert("wrong!");
-  }
-}
-// var questionTitle = document.getElementById("question");
-// var selectionList = document.getElementById("Answers");
-// var nextButton = document.getElementById("next");
 
-// if(questionTitle === correctAnswer)
+
 
 
 
