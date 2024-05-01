@@ -1,3 +1,4 @@
+const next = document.getElementById("next"); 
 const submit = document.getElementById("submit"); 
 const result = document.getElementById("show-result"); 
 const inputs = document.getElementsByTagName("input"); 
@@ -79,6 +80,10 @@ for(let i = 0; i < answers.length; ++i){
 
 
 //evaluate answer
+function showScore() {
+  const scoreText = document.getElementById("score");
+  scoreText.innerText = `Score: ${score}`;
+}
 
 function evaluateAnswer(){
   let answer;
@@ -88,6 +93,7 @@ function evaluateAnswer(){
       if(inputs[i].value == questions[currentQuestion].correct){
         score++;
         result.innerText = resultText.correct + goNextMessage;
+        showScore();
       }else{
         result.innerText = resultText.wrong + goNextMessage;
       }
@@ -123,7 +129,7 @@ function nextQuestion() {
 }
 
 //event listener for submit button
-submit.addEventListener("click", function() {
+next.addEventListener("click", function() {
   evaluateAnswer(); // Call the evaluateAnswer function when the submit button is clicked
 });
 
