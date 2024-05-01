@@ -46,13 +46,9 @@ function showQuestion(){
   const questionText = document.getElementById("question")
  const answers = document.querySelectorAll("label")
 console.log(questionText)
-const choices = document.getElementById("choices");
-choices.forEach((choice, index)=> {
-  choice.innerText = questions[currentQuestion].currentQuestion[index];
-})}
 
-
-showQuestion();
+questionText.innerText = questions[currentQuestion].question;
+console.log(questionText.innerText)}
 
 
 
