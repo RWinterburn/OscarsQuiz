@@ -5,6 +5,9 @@ h1 {text-align: center;
 padding: 5px 5px 5px 5px;
 background-color: gold;}
 
+h2{ position: relative;
+text-align: center;}
+
 .quiz{align-content: center;
 text-align: center;
 background-color: gold;
@@ -64,3 +67,8 @@ ul {
   cursor: pointer;
   background-color: rgba(87, 74, 1, 0.731);
 }
+
+#show-result { position: relative;
+width: 25%;
+top:40px}
+

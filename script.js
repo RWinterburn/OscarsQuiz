@@ -9,7 +9,7 @@ const resultText = {
 
 const goNextMessage = " Click here for the next question.";
 
-
+//QUESTIONS ARRAY
 const questions = [
   {
     question: "Who hosted the 2024 oscars?",
@@ -40,8 +40,10 @@ const questions = [
   },
 ];
 
+//SCORE TRACKING
 let currentQuestion = 0;
 let score = 0;
+//SHOW QUESTION PULLING FROM LABEL
 function showQuestion(){
   const questionText = document.getElementById("question")
  const answers = document.querySelectorAll("label")
@@ -55,7 +57,7 @@ for(let i = 0; i < answers.length; ++i){
 }
 }
 
-//next question
+
 
 //evaluate answer
 
@@ -81,10 +83,24 @@ submit.addEventListener('click',(e)=>{
   evaluateAnswer();
 })
 
+result.addEventListener('click',()=>{
+
+})
+
+console.log(inputs);
 
 
+//next question
 
-
+function nextQuestion() {
+  currentQuestion++;
+  event.preventDefault();
+  if (currentQuestion < questions.length) {
+    showQuestion();
+  } else {
+    // code to run when all questions have been answered
+  }
+}
 
 
 
