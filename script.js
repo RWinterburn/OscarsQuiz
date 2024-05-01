@@ -38,6 +38,25 @@ const questions = [
       "Emma Chonged"],
     correct: 1,
   },
+  {
+    question: "who won best Director?",
+    choices: [
+      "Christopher Nolan",
+     "Sir Top'n hat",
+      "Chris Noland", 
+      "Michael Bay"],
+    correct: 1,
+  },
+  {
+    question: "who won best actress?",
+    choices: [
+      "Emma Stoned",
+     "Emma Stone",
+      "Emma Baked", 
+      "Emma Chonged"],
+    correct: 1,
+  },
+
 ];
 
 //SCORE TRACKING
