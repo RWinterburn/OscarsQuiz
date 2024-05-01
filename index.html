@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel = "stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Document</title>
 </head>
+
 <body>
-<div class ="quiz-contain">
-  <h1>Oscars Quiz</h1>
-  <div class = "quiz">
-    
-    <h1 id="question">Question</h1>
-    <ul id ='choices'>
-      <li id="choice1"></li> <button id="choice4"> </button>
-      <li id="choice2"></li> <button id="choice4"> </button>
-      <li id="choice3"></li> <button id="choice4"> </button>
-      <li id="choice4"></li> <button id="choice4"> </button>
-    </ul>
-    <button type="submit" id = submit> submit </button>
+  <div class="quiz-contain">
+    <h1>Oscars Quiz</h1>
 
-    
+    <h2 id="question">Question</h2>
+
+    <form class="quiz">
+
+
+      <ul id="choices">
+
+        <li id="choice1">
+          <label for="answer1">Choice 1</label>
+          <input type="radio" name="quiz-answer" value="0" />
+        </li>
+
+        <li id="choice2">
+          <label for="answer2">Choice 2</label>
+          <input type="radio" name="quiz-answer" value="1" />
+        </li>
+
+        <li id="choice3">
+          <label for="answer3">Choice 3</label>
+          <input type="radio" name="quiz-answer" value="2" />
+        </li>
+
+        <li id="choice4">
+          <label for="answer4">Choice 4</label>
+          <input type="radio" name="quiz-answer" value="3" />
+        </li>
+
+      </ul>
+      <!-- <button type="reset" id="next">NEXT</button> -->
+      <button id="submit" name="quiz-answer">submit</button>
+    </form>
+    <div id="show-result">
     </div>
-    <button id="next">Next</button>
   </div>
-</div>
-
-  <script src="script.js"> </script>
+  <script src="script.js"></script>
 </body>
+
 </html>
