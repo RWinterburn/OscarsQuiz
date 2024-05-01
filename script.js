@@ -46,7 +46,7 @@ const questions = [
      "Sir Top'n hat",
       "Chris Noland", 
       "Michael Bay"],
-    correct: 1,
+    correct: 0,
   },
   {
     question: "who won best actress?",
@@ -96,6 +96,7 @@ function evaluateAnswer(){
         showScore();
       }else{
         result.innerText = resultText.wrong + goNextMessage;
+        showScore();
       }
       
     }
