@@ -75,6 +75,12 @@ function evaluateAnswer(){
 }
 
 
+showQuestion()
+submit.addEventListener('click',(e)=>{
+  event.preventDefault();
+  evaluateAnswer();
+})
+
 
 
 
