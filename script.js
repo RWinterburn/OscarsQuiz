@@ -48,7 +48,9 @@ function showQuestion(){
 console.log(questionText)
 
 questionText.innerText = questions[currentQuestion].question;
-console.log(questionText.innerText)}
+console.log(questionText.innerText)
+
+for(let i = 0; i < answers.length)}
 
 
 
