@@ -82,7 +82,7 @@ for(let i = 0; i < answers.length; ++i){
 
 function evaluateAnswer(){
   let answer;
-  for(let = 0; i < inputs.length; ++i){
+  for (let i = 0; i < inputs.length; ++i){
     //goes through radio and looks for clicked options
     if(inputs[i].checked){
       if(inputs[i].value == questions[currentQuestion].correct){
@@ -91,6 +91,7 @@ function evaluateAnswer(){
       }else{
         result.innerText = resultText.wrong + goNextMessage;
       }
+      
     }
   }
 }
@@ -121,6 +122,10 @@ function nextQuestion() {
   }
 }
 
+//event listener for submit button
+submit.addEventListener("click", function() {
+  evaluateAnswer(); // Call the evaluateAnswer function when the submit button is clicked
+});
 
 
 
