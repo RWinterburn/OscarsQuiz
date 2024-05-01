@@ -1,7 +1,7 @@
 const questions = [
   {
     question: "Who hosted the 2024 oscars?",
-    choices: ["London", "Paris", "Nairobi"],
+    choices: ["Jimmy Kimmel", "Jimmy Fallon", "Jim Talent"],
     correct: 0
   },
   {
@@ -15,6 +15,18 @@ const questions = [
     correct: 1
   },
 ]
+let currentQuestion = 0;
+function showQuestion(){
+  const questionText = document.getElementById("question")
+questionText.innerText=questions[currentQuestion].question;
+
+const choices = document.getElementById("choices");
+choices.forEach((choice, index)=> {
+  choice.innerText = questions[currentQuestion].currentQuestion[index];
+})}
+
+
+showQuestion();
 
 
 
