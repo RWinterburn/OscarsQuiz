@@ -1,4 +1,4 @@
-const next = document.getElementById("next"); 
+const next = document.getElementById("next-button"); 
 const submit = document.getElementById("submit"); 
 const result = document.getElementById("show-result"); 
 const inputs = document.getElementsByTagName("input"); 
@@ -9,7 +9,7 @@ const resultText = {
 };
 
 const goNextMessage = " Click here for the next question.";
-
+let questionAnswered = false; 
 //QUESTIONS ARRAY
 const questions = [
   {
@@ -101,13 +101,17 @@ function evaluateAnswer(){
       
     }
   }
+  questionAnswered = true;
 }
 
 
 showQuestion()
 submit.addEventListener('click',(e)=>{
-  event.preventDefault();
-  evaluateAnswer();
+  e.preventDefault();
+  if(!questionAnswered){
+    evaluateAnswer();
+    }
+    
 })
 
 result.addEventListener('click',()=>{
@@ -121,7 +125,9 @@ console.log(inputs);
 
 function nextQuestion() {
   currentQuestion++;
-  event.preventDefault();
+  questionAnswered = false
+ 
+ 
   if (currentQuestion < questions.length) {
     showQuestion();
   } else {
@@ -130,8 +136,9 @@ function nextQuestion() {
 }
 
 //event listener for submit button
-next.addEventListener("click", function() {
-  evaluateAnswer(); // Call the evaluateAnswer function when the submit button is clicked
+next.addEventListener("click", function(e) {
+  e.preventDefault()
+   // Call the evaluateAnswer function when the submit button is clicked
 });
 
 
