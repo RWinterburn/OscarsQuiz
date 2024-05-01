@@ -50,7 +50,29 @@ console.log(questionText)
 questionText.innerText = questions[currentQuestion].question;
 console.log(questionText.innerText)
 
-for(let i = 0; i < answers.length)}
+for(let i = 0; i < answers.length; ++i){
+  answers[i].innerText = questions[currentQuestion].choices[i];
+}
+}
+
+//next question
+
+//evaluate answer
+
+function evaluateAnswer(){
+  let answer;
+  for(let = 0; i < inputs.length; ++i){
+    //goes through radio and looks for clicked options
+    if(inputs[i].checked){
+      if(inputs[i].value == questions[currentQuestion].correct){
+        score++;
+        result.innerText = resultText.correct + goNextMessage;
+      }else{
+        result.innerText = resultText.wrong + goNextMessage;
+      }
+    }
+  }
+}
 
 
 
