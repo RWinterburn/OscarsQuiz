@@ -1,3 +1,14 @@
+const submit = document.getElementById("submit"); 
+const result = document.getElementById("show-result"); 
+const inputs = document.getElementsByTagName("input"); 
+const resultText = {
+  // text to display on result
+  correct: "Correct! Nice one!",
+  wrong: "Wrong! Better Luck Next Time Scrub!",
+};
+
+
+
 const questions = [
   {
     question: "Who hosted the 2024 oscars?",
