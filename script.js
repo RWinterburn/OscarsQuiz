@@ -1,7 +1,7 @@
-const next = document.getElementById("next-button"); 
-const submit = document.getElementById("submit"); 
-const result = document.getElementById("show-result"); 
-const inputs = document.getElementsByTagName("input"); 
+const next = document.getElementById("next-button");
+const submit = document.getElementById("submit");
+const result = document.getElementById("show-result");
+const inputs = document.getElementsByTagName("input");
 const resultText = {
   // text to display on result
   correct: "Correct! Nice one!",
@@ -9,15 +9,15 @@ const resultText = {
 };
 
 const goNextMessage = " Click here for the next question.";
-let questionAnswered = false; 
+let questionAnswered = false;
 //QUESTIONS ARRAY
 const questions = [
   {
     question: "Who hosted the 2024 oscars?",
     choices: ["Jimmy Kimmel",
-     "Jimmy Fallon",
+      "Jimmy Fallon",
       "Jim Talent",
-       "Tom Brady"],
+      "Tom Brady"],
     correct: 0,
   },
   {
@@ -34,8 +34,8 @@ const questions = [
     question: "who won best actress?",
     choices: [
       "Emma Stoned",
-     "Emma Stone",
-      "Emma Baked", 
+      "Emma Stone",
+      "Emma Baked",
       "Emma Chonged"],
     correct: 1,
   },
@@ -43,8 +43,8 @@ const questions = [
     question: "who won best Director?",
     choices: [
       "Christopher Nolan",
-     "Sir Top'n hat",
-      "Chris Noland", 
+      "Sir Top'n hat",
+      "Chris Noland",
       "Michael Bay"],
     correct: 0,
   },
@@ -52,8 +52,8 @@ const questions = [
     question: "who won best actress?",
     choices: [
       "Emma Stoned",
-     "Emma Stone",
-      "Emma Baked", 
+      "Emma Stone",
+      "Emma Baked",
       "Emma Chonged"],
     correct: 1,
   },
@@ -64,17 +64,17 @@ const questions = [
 let currentQuestion = 0;
 let score = 0;
 //SHOW QUESTION PULLING FROM LABEL
-function showQuestion(){
+function showQuestion() {
   const questionText = document.getElementById("question")
- const answers = document.querySelectorAll("label")
-console.log(questionText)
+  const answers = document.querySelectorAll("label")
+  console.log(questionText)
 
-questionText.innerText = questions[currentQuestion].question;
-console.log(questionText.innerText)
+  questionText.innerText = questions[currentQuestion].question;
+  console.log(questionText.innerText)
 
-for(let i = 0; i < answers.length; ++i){
-  answers[i].innerText = questions[currentQuestion].choices[i];
-}
+  for (let i = 0; i < answers.length; ++i) {
+    answers[i].innerText = questions[currentQuestion].choices[i];
+  }
 }
 
 
@@ -85,20 +85,20 @@ function showScore() {
   scoreText.innerText = `Score: ${score}`;
 }
 
-function evaluateAnswer(){
+function evaluateAnswer() {
   let answer;
-  for (let i = 0; i < inputs.length; ++i){
+  for (let i = 0; i < inputs.length; ++i) {
     //goes through radio and looks for clicked options
-    if(inputs[i].checked){
-      if(inputs[i].value == questions[currentQuestion].correct){
+    if (inputs[i].checked) {
+      if (inputs[i].value == questions[currentQuestion].correct) {
         score++;
         result.innerText = resultText.correct + goNextMessage;
         showScore();
-      }else{
+      } else {
         result.innerText = resultText.wrong + goNextMessage;
         showScore();
       }
-      
+
     }
   }
   questionAnswered = true;
@@ -106,15 +106,15 @@ function evaluateAnswer(){
 
 
 showQuestion()
-submit.addEventListener('click',(e)=>{
+submit.addEventListener('click', (e) => {
   e.preventDefault();
-  if(!questionAnswered){
+  if (!questionAnswered) {
     evaluateAnswer();
-    }
-    
+  }
+
 })
 
-result.addEventListener('click',()=>{
+result.addEventListener('click', () => {
 
 })
 
@@ -126,8 +126,8 @@ console.log(inputs);
 function nextQuestion() {
   currentQuestion++;
   questionAnswered = false
- 
- 
+
+
   if (currentQuestion < questions.length) {
     showQuestion();
   } else {
@@ -136,9 +136,9 @@ function nextQuestion() {
 }
 
 //event listener for submit button
-next.addEventListener("click", function(e) {
+next.addEventListener("click", function (e) {
   e.preventDefault()
-   // Call the evaluateAnswer function when the submit button is clicked
+  // Call the evaluateAnswer function when the submit button is clicked
 });
 
 
@@ -146,7 +146,7 @@ next.addEventListener("click", function(e) {
 
 
 
-    
-    
+
+
 
 
