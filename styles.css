@@ -8,6 +8,13 @@ background-color: gold;}
 h2{ position: relative;
 text-align: center;}
 
+ul{font-size: larger;
+text-align: center;
+word-spacing: 2px;
+}
+
+
+
 .quiz{align-content: center;
 text-align: center;
 background-color: gold;

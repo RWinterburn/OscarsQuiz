@@ -39,3 +39,11 @@ function startQuiz(){
 }
 
 functio
+
+
+to do list 
+add a name bar 
+set the result text to go off after 3 seconds 
+submit whole answer 
+fix the counter 
+change up the css and structure

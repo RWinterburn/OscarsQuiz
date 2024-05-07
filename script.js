@@ -1,6 +1,6 @@
-const submit = document.getElementById("submit"); 
-const result = document.getElementById("show-result"); 
-const inputs = document.getElementsByTagName("input"); 
+const submit = document.getElementById("submit");
+const result = document.getElementById("show-result");
+const inputs = document.getElementsByTagName("input");
 const resultText = {
   // text to display on result
   correct: "Correct! Nice one!",
@@ -14,9 +14,9 @@ const questions = [
   {
     question: "Who hosted the 2024 oscars?",
     choices: ["Jimmy Kimmel",
-     "Jimmy Fallon",
+      "Jimmy Fallon",
       "Jim Talent",
-       "Tom Brady"],
+      "Tom Brady"],
     correct: 0,
   },
   {
@@ -33,8 +33,8 @@ const questions = [
     question: "who won best actress?",
     choices: [
       "Emma Stoned",
-     "Emma Stone",
-      "Emma Baked", 
+      "Emma Stone",
+      "Emma Baked",
       "Emma Chonged"],
     correct: 1,
   },
@@ -42,8 +42,8 @@ const questions = [
     question: "who won best Director?",
     choices: [
       "Christopher Nolan",
-     "Sir Top'n hat",
-      "Chris Noland", 
+      "Sir Top'n hat",
+      "Chris Noland",
       "Michael Bay"],
     correct: 1,
   },
@@ -51,8 +51,8 @@ const questions = [
     question: "who won best actress?",
     choices: [
       "Emma Stoned",
-     "Emma Stone",
-      "Emma Baked", 
+      "Emma Stone",
+      "Emma Baked",
       "Emma Chonged"],
     correct: 1,
   },
@@ -63,47 +63,47 @@ const questions = [
 let currentQuestion = 0;
 let score = 0;
 //SHOW QUESTION PULLING FROM LABEL
-function showQuestion(){
+function showQuestion() {
   const questionText = document.getElementById("question")
- const answers = document.querySelectorAll("label")
-console.log(questionText)
+  const answers = document.querySelectorAll("label")
+  console.log(questionText)
 
-questionText.innerText = questions[currentQuestion].question;
-console.log(questionText.innerText)
+  questionText.innerText = questions[currentQuestion].question;
+  console.log(questionText.innerText)
 
-for(let i = 0; i < answers.length; ++i){
-  answers[i].innerText = questions[currentQuestion].choices[i];
-}
+  for (let i = 0; i < answers.length; ++i) {
+    answers[i].innerText = questions[currentQuestion].choices[i];
+  }
 }
 
 
 
 //evaluate answer
 
-function evaluateAnswer(){
+function evaluateAnswer() {
   let answer;
-  for (let i = 0; i < inputs.length; ++i){
+  for (let i = 0; i < inputs.length; ++i) {
     //goes through radio and looks for clicked options
-    if(inputs[i].checked){
-      if(inputs[i].value == questions[currentQuestion].correct){
+    if (inputs[i].checked) {
+      if (inputs[i].value == questions[currentQuestion].correct) {
         score++;
         result.innerText = resultText.correct + goNextMessage;
-      }else{
+      } else {
         result.innerText = resultText.wrong + goNextMessage;
       }
-      
+
     }
   }
 }
 
 
 showQuestion()
-submit.addEventListener('click',(e)=>{
+submit.addEventListener('click', (e) => {
   event.preventDefault();
   evaluateAnswer();
 })
 
-result.addEventListener('click',()=>{
+result.addEventListener('click', () => {
 
 })
 
@@ -123,8 +123,10 @@ function nextQuestion() {
 }
 
 //event listener for submit button
-submit.addEventListener("click", function() {
-  evaluateAnswer(); // Call the evaluateAnswer function when the submit button is clicked
+submit.addEventListener("click", function () {
+  evaluateAnswer();
+  nextQuestion();
+  // Call the evaluateAnswer function when the submit button is clicked
 });
 
 
@@ -132,7 +134,9 @@ submit.addEventListener("click", function() {
 
 
 
-    
-    
+
+
+
+
 
 
