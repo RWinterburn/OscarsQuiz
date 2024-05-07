@@ -1,15 +1,10 @@
-# OscarsQuiz
-Quiz on the oscars
+Things to do 
 
-var questions = [
-  { question: "who hosted the 2024 Oscars?",
-  answers : [
-    {text: "Jimmy Hendrix", correct : false},
-    {text: "Jimmy Tallon", correct : false},
-    {text: "Jimmy Fallon", correct : false},
-    {text: "Jimmy Kimmel", correct : true},
-   ]
+Add score counter
+Add Game over screen
+add images on load for correct answer?
 
+<<<<<<< HEAD
 },
 { question: "who won Best Actress?",
 answers : [
@@ -47,3 +42,5 @@ set the result text to go off after 3 seconds
 submit whole answer 
 fix the counter 
 change up the css and structure
+=======
+>>>>>>> 0ba620694dda2caad66bb883b72687df06ba58d6

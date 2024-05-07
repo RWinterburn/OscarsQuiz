@@ -7,8 +7,8 @@ const resultText = {
   wrong: "Wrong! Better Luck Next Time Scrub!",
 };
 
-const goNextMessage = " Click here for the next question.";
-
+const goNextMessage = " Go to the question.";
+let questionAnswered = false;
 //QUESTIONS ARRAY
 const questions = [
   {
@@ -45,7 +45,7 @@ const questions = [
       "Sir Top'n hat",
       "Chris Noland",
       "Michael Bay"],
-    correct: 1,
+    correct: 0,
   },
   {
     question: "who won best actress?",
@@ -70,6 +70,8 @@ function showQuestion() {
 
   questionText.innerText = questions[currentQuestion].question;
   console.log(questionText.innerText)
+  questionText.innerText = questions[currentQuestion].question;
+  console.log(questionText.innerText)
 
   for (let i = 0; i < answers.length; ++i) {
     answers[i].innerText = questions[currentQuestion].choices[i];
@@ -79,6 +81,10 @@ function showQuestion() {
 
 
 //evaluate answer
+function showScore() {
+  const scoreText = document.getElementById("score");
+  scoreText.innerText = `Score: ${score}`;
+}
 
 function evaluateAnswer() {
   let answer;
@@ -88,14 +94,23 @@ function evaluateAnswer() {
       if (inputs[i].value == questions[currentQuestion].correct) {
         score++;
         result.innerText = resultText.correct + goNextMessage;
+        setTimeout(() => {
+          result.innerText = "";
+        }, 1000);
       } else {
         result.innerText = resultText.wrong + goNextMessage;
+        setTimeout(() => {
+          result.innerText = "";
+        }, 1000);
+        showScore();
+
       }
-      setTimeout(() => {
-        result.innerText = "";
-      }, 1000);
+
+
     }
   }
+  // questionAnswered = true;
+
 }
 
 
@@ -103,6 +118,7 @@ showQuestion()
 submit.addEventListener('click', (e) => {
   event.preventDefault();
   evaluateAnswer();
+
 })
 
 result.addEventListener('click', () => {
@@ -116,7 +132,9 @@ console.log(inputs);
 
 function nextQuestion() {
   currentQuestion++;
-  event.preventDefault();
+  questionAnswered = false
+
+
   if (currentQuestion < questions.length) {
     showQuestion();
   } else {
@@ -128,8 +146,11 @@ function nextQuestion() {
 submit.addEventListener("click", function () {
   evaluateAnswer();
   nextQuestion();
+
   // Call the evaluateAnswer function when the submit button is clicked
 });
+
+
 
 
 
