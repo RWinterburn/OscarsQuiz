@@ -91,7 +91,9 @@ function evaluateAnswer() {
       } else {
         result.innerText = resultText.wrong + goNextMessage;
       }
-
+      setTimeout(() => {
+        result.innerText = "";
+      }, 1000);
     }
   }
 }
