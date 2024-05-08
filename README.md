@@ -4,7 +4,6 @@ Add score counter
 Add Game over screen
 add images on load for correct answer?
 
-<<<<<<< HEAD
 },
 { question: "who won Best Actress?",
 answers : [
@@ -42,5 +41,9 @@ set the result text to go off after 3 seconds
 submit whole answer 
 fix the counter 
 change up the css and structure
-=======
->>>>>>> 0ba620694dda2caad66bb883b72687df06ba58d6
+
+
+completed
+added name bar
+submit whole answer
+result text to dissappear 

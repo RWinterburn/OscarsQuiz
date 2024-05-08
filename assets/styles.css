@@ -1,42 +1,54 @@
-body {background-color: goldenrod;
-font-family: sans-serif}
+body {
+  background-color: goldenrod;
+  font-family: sans-serif
+}
 
-h1 {text-align: center;
-padding: 5px 5px 5px 5px;
-background-color: gold;}
+h1 {
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  background-color: gold;
+}
 
-h2{ position: relative;
-text-align: center;}
+h2 {
+  position: relative;
+  text-align: center;
+}
 
-ul{font-size: larger;
-text-align: center;
-word-spacing: 2px;
+ul {
+  font-size: larger;
+  text-align: center;
+  word-spacing: 2px;
 }
 
 
 
-.quiz{align-content: center;
-text-align: center;
-background-color: gold;
-border-radius: 5%;
-margin: 0 auto;
-width : 500px;
-height: 700px;}
+.quiz {
+  align-content: center;
+  text-align: center;
+  background-color: gold;
+  border-radius: 5%;
+  margin: 0 auto;
+  width: 500px;
+  height: 700px;
+}
 
-.btn{background-color: aliceblue;
-color: black;
-width: 90%;
-margin: 2px;
-border: 1px solid;
-padding: 10px;
-text-align: left;
-cursor: pointer;}
+.btn {
+  background-color: aliceblue;
+  color: black;
+  width: 90%;
+  margin: 2px;
+  border: 1px solid;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+}
 
-.btn:hover{
+.btn:hover {
   background-color: rgba(255, 217, 0, 0.384);
 }
 
-#next{background-color: rgb(229, 223, 160);
+#next {
+  background-color: rgb(229, 223, 160);
   color: black;
   width: 50%;
   margin: 2px;
@@ -48,13 +60,15 @@ cursor: pointer;}
 
 }
 
-#next:hover{background-color: rgba(255, 217, 0, 0.384);
+#next:hover {
+  background-color: rgba(255, 217, 0, 0.384);
 
 }
 
 ul {
   list-style: none;
 }
+
 #next {
   position: absolute;
   top: 80%;
@@ -62,6 +76,7 @@ ul {
   width: 10%;
   height: 10%;
 }
+
 #show-result {
   position: relative;
   top: 50%;
@@ -73,16 +88,20 @@ ul {
   border-radius: 14px;
   cursor: pointer;
   background-color: rgba(87, 74, 1, 0.731);
-  
+
 }
 
-#show-result { position: relative;
-width: 25%;
-bottom: 70px}
+#show-result {
+  position: relative;
+  width: 25%;
+  bottom: 70px
+}
 
-#score {text-align: center;}
+#score {
+  text-align: center;
+}
 
-#titlescreen{
+#titlescreen {
   position: absolute;
   top: 0;
   left: 0;
@@ -92,6 +111,28 @@ bottom: 70px}
   width: 100vw;
   background-color: rgb(245, 191, 75);
   z-index: 1000;
-  
+
 }
 
+#welcome-page {
+  position: relative;
+  text-align: center;
+}
+
+#start-button {
+  position: relative;
+  left: 48vw;
+  top: 50%;
+
+}
+
+#fname {
+  position: relative;
+  left: 48vw;
+  top: 50%;
+}
+
+h5 {
+  position: relative;
+  text-align: center;
+}
