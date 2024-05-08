@@ -1,6 +1,7 @@
 const submit = document.getElementById("submit");
 const result = document.getElementById("show-result");
 const inputs = document.getElementsByTagName("input");
+const start = document.getElementById("start-button")
 const resultText = {
   // text to display on result
   correct: "Correct! Nice one!",
@@ -151,6 +152,10 @@ submit.addEventListener("click", function () {
 });
 
 
+start.addEventListener("click", function () {
+  titlescreen.style.display = "none";
+  showQuestion();
+})
 
 
 
