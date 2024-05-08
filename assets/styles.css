@@ -82,3 +82,16 @@ bottom: 70px}
 
 #score {text-align: center;}
 
+#titlescreen{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(245, 191, 75);
+  z-index: 1000;
+  
+}
+
