@@ -86,12 +86,14 @@ function showName() {
   document.getElementById("name").innerHTML = `Name: <strong>${fname}</strong>`;
 }
 
-//evaluate answer
+//show score
 function showScore() {
-  const scoreText = document.getElementById("score");
-  scoreText.innerText = `Score: ${score}`;
+  const scoreValue = document.getElementById("score").value;
+  const scoreElement = document.getElementById("score");
+  scoreElement.innerHTML = `Current Score: <strong>${score}</strong>`;
 }
 
+//evaluate Answer
 function evaluateAnswer() {
   let answer;
   for (let i = 0; i < inputs.length; ++i) {
@@ -152,6 +154,7 @@ function nextQuestion() {
 submit.addEventListener("click", function () {
   evaluateAnswer();
   nextQuestion();
+  showScore();
 
   // Call the evaluateAnswer function when the submit button is clicked
 });
