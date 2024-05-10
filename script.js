@@ -56,6 +56,50 @@ const questions = [
       "Emma Baked",
       "Emma Chonged"],
     correct: 1,
+  }, {
+    question: "Who hosted the 2024 oscars?",
+    choices: ["Jimmy Kimmel",
+      "Jimmy Fallon",
+      "Jim Talent",
+      "Tom Brady"],
+    correct: 0,
+  },
+  {
+    question: "Who won best actor?",
+    choices: [
+      "Killem All Merfield",
+      "Tony Stark",
+      "Cillian Murphy",
+      "Stewie Griffin",
+    ],
+    correct: 2,
+  },
+  {
+    question: "who won best actress?",
+    choices: [
+      "Emma Stoned",
+      "Emma Stone",
+      "Emma Baked",
+      "Emma Chonged"],
+    correct: 1,
+  },
+  {
+    question: "who won best Director?",
+    choices: [
+      "Christopher Nolan",
+      "Sir Top'n hat",
+      "Chris Noland",
+      "Michael Bay"],
+    correct: 0,
+  },
+  {
+    question: "who won best actress?",
+    choices: [
+      "Emma Stoned",
+      "Emma Stone",
+      "Emma Baked",
+      "Emma Chonged"],
+    correct: 1,
   },
 
 ];
@@ -63,6 +107,14 @@ const questions = [
 //SCORE TRACKING
 let currentQuestion = 0;
 let score = 0;
+
+//show score
+function showScore() {
+  const scoreElement = document.getElementById("score");
+  scoreElement.innerHTML = `Current Score: <strong>${score}</strong>`;
+
+
+}
 //SHOW QUESTION PULLING FROM LABEL
 function showQuestion() {
   const questionText = document.getElementById("question")
@@ -86,12 +138,7 @@ function showName() {
   document.getElementById("name").innerHTML = `Name: <strong>${fname}</strong>`;
 }
 
-//show score
-function showScore() {
-  const scoreValue = document.getElementById("score").value;
-  const scoreElement = document.getElementById("score");
-  scoreElement.innerHTML = `Current Score: <strong>${score}</strong>`;
-}
+
 
 //evaluate Answer
 function evaluateAnswer() {
@@ -110,24 +157,25 @@ function evaluateAnswer() {
         setTimeout(() => {
           result.innerText = "";
         }, 1000);
-        showScore();
 
       }
 
 
     }
   }
-  // questionAnswered = true;
+  //questionAnswered = true;
 
 }
 
-
-showQuestion()
 submit.addEventListener('click', (e) => {
-  event.preventDefault();
+  e.preventDefault();
   evaluateAnswer();
+  nextQuestion();
+  showScore();
+});
 
-})
+
+
 
 result.addEventListener('click', () => {
 
@@ -151,13 +199,7 @@ function nextQuestion() {
 }
 
 //event listener for submit button
-submit.addEventListener("click", function () {
-  evaluateAnswer();
-  nextQuestion();
-  showScore();
 
-  // Call the evaluateAnswer function when the submit button is clicked
-});
 
 
 start.addEventListener("click", function () {
