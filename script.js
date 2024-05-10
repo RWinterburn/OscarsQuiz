@@ -79,7 +79,12 @@ function showQuestion() {
   }
 }
 
-
+function showName() {
+  const name = document.getElementById("fname");
+  const fname = name.value;
+  name.value = `Name: ${fname}`;
+  document.getElementById("name").innerHTML = `Name: <strong>${fname}</strong>`;
+}
 
 //evaluate answer
 function showScore() {
@@ -153,8 +158,10 @@ submit.addEventListener("click", function () {
 
 
 start.addEventListener("click", function () {
+
   titlescreen.style.display = "none";
   showQuestion();
+  showName();
 })
 
 
