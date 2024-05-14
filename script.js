@@ -194,7 +194,8 @@ function nextQuestion() {
   if (currentQuestion < questions.length) {
     showQuestion();
   } else {
-    // code to run when all questions have been answered
+    endQuiz()
+    return; //quiz end
   }
 }
 
@@ -209,6 +210,9 @@ start.addEventListener("click", function () {
   showName();
 })
 
+function endQuiz() {
+  endscreen.style.display = "block";
+}
 
 
 

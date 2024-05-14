@@ -136,3 +136,17 @@ h5 {
   position: relative;
   text-align: center;
 }
+
+#endscreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100dvh;
+  width: 100dvw;
+  background-color: rgb(7, 216, 87);
+  z-index: 1000;
+  display: none;
+
+}
