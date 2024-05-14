@@ -203,7 +203,7 @@ function nextQuestion() {
 //event listener for submit button
 
 
-
+//function for name input 
 nameInput.addEventListener('input', () => {
   if (nameInput.value !== '') {
     start.addEventListener('click', () => {
@@ -219,8 +219,13 @@ nameInput.addEventListener('input', () => {
     });
   }
 });
+
+
+
 function endQuiz() {
   endscreen.style.display = "block";
+  const scoreEndElement = document.getElementById('score-end');
+  scoreEndElement.textContent = `You scored: ${score} out of`;
 
 }
 
