@@ -79,7 +79,7 @@ ul {
 
 #show-result {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 15px;
@@ -97,6 +97,7 @@ ul {
 
 #score {
   text-align: center;
+  top: 40%;
 }
 
 #titlescreen {
@@ -147,4 +148,18 @@ h5 {
   z-index: 1000;
   display: none;
 
+}
+
+
+#score-end {
+  text-align: center;
+
+}
+
+#endtitle {
+  text-align: center;
+}
+
+#name {
+  text-align: center;
 }

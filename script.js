@@ -6,10 +6,10 @@ const nameInput = document.getElementById('fname');
 const resultText = {
   // text to display on result
   correct: "Correct! Nice one!",
-  wrong: "Wrong! Better Luck Next Time Scrub!",
+  wrong: "Wrong! Better Luck Next Time!",
 };
 
-const goNextMessage = " Go to the question.";
+const goNextMessage = " Here's the next question.";
 let questionAnswered = false;
 //QUESTIONS ARRAY
 const questions = [
@@ -152,12 +152,12 @@ function evaluateAnswer() {
         result.innerText = resultText.correct + goNextMessage;
         setTimeout(() => {
           result.innerText = "";
-        }, 1000);
+        }, 3000);
       } else {
         result.innerText = resultText.wrong + goNextMessage;
         setTimeout(() => {
           result.innerText = "";
-        }, 1000);
+        }, 3000);
 
       }
 
@@ -225,7 +225,7 @@ nameInput.addEventListener('input', () => {
 function endQuiz() {
   endscreen.style.display = "block";
   const scoreEndElement = document.getElementById('score-end');
-  scoreEndElement.textContent = `You scored: ${score} out of`;
+  scoreEndElement.textContent = `You scored: ${score} out of like 10?`;
 
 }
 
