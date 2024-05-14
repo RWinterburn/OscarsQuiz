@@ -2,6 +2,7 @@ const submit = document.getElementById("submit");
 const result = document.getElementById("show-result");
 const inputs = document.getElementsByTagName("input");
 const start = document.getElementById("start-button")
+const nameInput = document.getElementById('fname');
 const resultText = {
   // text to display on result
   correct: "Correct! Nice one!",
@@ -203,15 +204,24 @@ function nextQuestion() {
 
 
 
-start.addEventListener("click", function () {
-
-  titlescreen.style.display = "none";
-  showQuestion();
-  showName();
-})
-
+nameInput.addEventListener('input', () => {
+  if (nameInput.value !== '') {
+    start.addEventListener('click', () => {
+      titlescreen.style.display = "none";
+      showQuestion();
+      showName();
+    });
+  } else {
+    startButton.removeEventListener('click', () => {
+      titlescreen.style.display = "none";
+      showQuestion();
+      showName();
+    });
+  }
+});
 function endQuiz() {
   endscreen.style.display = "block";
+
 }
 
 
