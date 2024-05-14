@@ -47,3 +47,12 @@ completed
 added name bar
 submit whole answer
 result text to dissappear 
+
+
+
+TO ADD. 
+
+ADD More text to ending screen
+add function where you have to input a name to move onto the quiz
+maybe make another quiz when the first quiz ends 
+add a total score and the option to play again 
