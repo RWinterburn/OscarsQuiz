@@ -56,3 +56,8 @@ ADD More text to ending screen
 add function where you have to input a name to move onto the quiz
 maybe make another quiz when the first quiz ends 
 add a total score and the option to play again 
+make sections and everythin semantic
+clean up empty spaces 
+remove test and json files
+put things into folders e.g. 
+assets, css, js

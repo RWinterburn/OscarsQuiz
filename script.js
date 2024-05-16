@@ -223,9 +223,11 @@ nameInput.addEventListener('input', () => {
 
 
 function endQuiz() {
+
+  fname = document.getElementById('fname').value
   endscreen.style.display = "block";
   const scoreEndElement = document.getElementById('score-end');
-  scoreEndElement.textContent = `You scored: ${score} out of like 10?`;
+  scoreEndElement.innerHTML = `${fname} You scored: ${score} out of like 10?`;
 
 }
 
