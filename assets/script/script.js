@@ -226,7 +226,16 @@ function endQuiz() {
 }
 
 
+let tryAgain = document.getElementById('tryAgain')
 
+tryAgain.addEventListener('click', () => {
+  // Reset the quiz
+  currentQuestion = 0;
+  score = 0;
+  endscreen.style.display = "none";
+  showQuestion();
+
+});
 
 
 

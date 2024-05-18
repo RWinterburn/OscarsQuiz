@@ -1,6 +1,7 @@
 body {
   background-color: goldenrod;
-  font-family: sans-serif
+  font-family: sans-serif;
+
 }
 
 h1 {
@@ -23,13 +24,13 @@ ul {
 
 
 .quiz {
-  align-content: center;
+
   text-align: center;
   background-color: gold;
   border-radius: 5%;
   margin: 0 auto;
   width: 500px;
-  height: 700px;
+  height: 500px;
 }
 
 .btn {
@@ -97,7 +98,7 @@ ul {
 
 #score {
   text-align: center;
-  top: 40%;
+  top: 50%;
 }
 
 #titlescreen {
