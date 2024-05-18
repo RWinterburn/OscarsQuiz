@@ -204,19 +204,13 @@ function nextQuestion() {
 
 
 //function for name input 
-nameInput.addEventListener('input', () => {
+start.addEventListener('click', () => {
   if (nameInput.value !== '') {
-    start.addEventListener('click', () => {
-      titlescreen.style.display = "none";
-      showQuestion();
-      showName();
-    });
+    titlescreen.style.display = "none";
+    showQuestion();
+    showName();
   } else {
-    startButton.removeEventListener('click', () => {
-      titlescreen.style.display = "none";
-      showQuestion();
-      showName();
-    });
+    alert("Please enter your name!");
   }
 });
 
