@@ -50,47 +50,47 @@ const questions = [
     correct: 0,
   },
   {
-    question: "who won best actress?",
+    question: "Who won best picture?",
     choices: [
-      "Emma Stoned",
-      "Emma Stone",
-      "Emma Baked",
-      "Emma Chonged"],
+      "Poor Things",
+      "Oppenheimer",
+      "Barbie",
+      "Godzilla Minus One"],
     correct: 1,
   }, {
-    question: "Who hosted the 2024 oscars?",
-    choices: ["Jimmy Kimmel",
-      "Jimmy Fallon",
-      "Jim Talent",
-      "Tom Brady"],
-    correct: 0,
+    question: "Who won best original screenplay?",
+    choices: ["Cat In the Hat",
+      "Anthony I've fallen",
+      "Anatomy I've fallen",
+      "Anatomy of a fall"],
+    correct: 3,
   },
   {
-    question: "Who won best actor?",
+    question: "Who won best animated feature?",
     choices: [
-      "Killem All Merfield",
-      "Tony Stark",
-      "Cillian Murphy",
-      "Stewie Griffin",
+      "Zone of Interest",
+      "The Boy and Erin",
+      "The Boy and The Heron",
+      "Michael Bay and The Exploding Chairs",
     ],
     correct: 2,
   },
   {
-    question: "who won best actress?",
+    question: "who won best supporting actress?",
     choices: [
-      "Emma Stoned",
-      "Emma Stone",
-      "Emma Baked",
-      "Emma Chonged"],
+      "Jennifer Lawrence",
+      "Da'Wine Bring Joy Rudolph",
+      "Da'Vine Joy Randolph",
+      "Emma's stoned"],
     correct: 1,
   },
   {
-    question: "who won best Director?",
+    question: "who won best visual effects?",
     choices: [
-      "Christopher Nolan",
-      "Sir Top'n hat",
-      "Chris Noland",
-      "Michael Bay"],
+      "Godzilla Minus One",
+      "Antman 3",
+      "Fast and Furious Family Matters",
+      "Jason Quorn Quorn Ultimatum"],
     correct: 0,
   },
   {
@@ -230,8 +230,9 @@ let tryAgain = document.getElementById('tryAgain')
 
 tryAgain.addEventListener('click', () => {
   // Reset the quiz
-  currentQuestion = 0;
   score = 0;
+  currentQuestion = 0;
+
   endscreen.style.display = "none";
   showQuestion();
 
