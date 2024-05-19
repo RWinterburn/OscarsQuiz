@@ -94,13 +94,22 @@ const questions = [
     correct: 0,
   },
   {
-    question: "who won best actress?",
+    question: "who won best orignal song?",
     choices: [
-      "Emma Stoned",
-      "Emma Stone",
-      "Emma Baked",
-      "Emma Chonged"],
+      "Bill Hader",
+      "Billie Ellish",
+      "Phineas & Ferb",
+      "Ariana Grande Latte"],
     correct: 1,
+  },
+  {
+    question: "what film won the most Oscars?",
+    choices: [
+      "Oppenheimer",
+      "Barbie",
+      "Poor Things",
+      "Saltburn"],
+    correct: 0,
   },
 
 ];

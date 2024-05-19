@@ -141,6 +141,17 @@ ul {
 
 }
 
+#submit {
+  background-color: goldenrod;
+  font-size: large;
+  color: aliceblue;
+}
+
+#submit:hover {
+  background-color: rgb(245, 191, 75);
+  cursor: pointer;
+}
+
 #fname {
   position: relative;
   left: 43%;
