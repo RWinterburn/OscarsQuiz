@@ -215,7 +215,6 @@ function endQuiz() {
   scoreEndElement.innerHTML = `${fname} You scored: ${score} out of like 10?`;
 }
 
-
 let tryAgain = document.getElementById("tryAgain")
 
 tryAgain.addEventListener("click", () => {
