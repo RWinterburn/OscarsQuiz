@@ -2,7 +2,7 @@ const submit = document.getElementById("submit");
 const result = document.getElementById("show-result");
 const inputs = document.getElementsByTagName("input");
 const start = document.getElementById("start-button")
-const nameInput = document.getElementById('fname');
+const nameInput = document.getElementById("fname");
 const resultText = {
   // text to display on result
   correct: "Correct! Nice one!",
@@ -136,7 +136,7 @@ function showQuestion() {
   questionText.innerText = questions[currentQuestion].question;
   console.log(questionText.innerText)
 
-  for (let i = 0; i < answers.length; ++i) {
+  for (i = 0; i < answers.length; ++i) {
     answers[i].innerText = questions[currentQuestion].choices[i];
   }
 }
@@ -177,7 +177,7 @@ function evaluateAnswer() {
 
 }
 
-submit.addEventListener('click', (e) => {
+submit.addEventListener("click", (e) => {
   e.preventDefault();
   evaluateAnswer();
   nextQuestion();
@@ -187,7 +187,7 @@ submit.addEventListener('click', (e) => {
 
 
 
-result.addEventListener('click', () => {
+result.addEventListener("click", () => {
 
 })
 
@@ -213,7 +213,7 @@ function nextQuestion() {
 
 
 //function for name input 
-start.addEventListener('click', () => {
+start.addEventListener("click", () => {
   if (nameInput.value !== '') {
     titlescreen.style.display = "none";
     showQuestion();
@@ -227,17 +227,17 @@ start.addEventListener('click', () => {
 
 function endQuiz() {
 
-  fname = document.getElementById('fname').value
+  fname = document.getElementById("fname").value
   endscreen.style.display = "block";
-  const scoreEndElement = document.getElementById('score-end');
+  const scoreEndElement = document.getElementById("score-end");
   scoreEndElement.innerHTML = `${fname} You scored: ${score} out of like 10?`;
 
 }
 
 
-let tryAgain = document.getElementById('tryAgain')
+let tryAgain = document.getElementById("tryAgain")
 
-tryAgain.addEventListener('click', () => {
+tryAgain.addEventListener("click", () => {
   // Reset the quiz
   score = 0;
   currentQuestion = 0;
