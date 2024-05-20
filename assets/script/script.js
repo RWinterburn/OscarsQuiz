@@ -135,7 +135,7 @@ function showQuestion() {
   questionText.innerText = questions[currentQuestion].question;
   console.log(questionText.innerText);
 
-  for (i = 0; i < answers.length; ++i) {
+  for (let i = 0; i < answers.length; ++i) {
     answers[i].innerText = questions[currentQuestion].choices[i];
   }
 }
