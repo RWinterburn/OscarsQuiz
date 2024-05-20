@@ -82,7 +82,7 @@ const questions = [
       "Da'Wine Bring Joy Rudolph",
       "Da'Vine Joy Randolph",
       "Emma's stoned"],
-    correct: 1,
+    correct: 2,
   },
   {
     question: "who won best visual effects?",

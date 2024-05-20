@@ -1,12 +1,14 @@
 body {
   font-family: sans-serif;
-  background-image: url('oscarsquiz-3/assets/pictures/img.jpg');
+  background-image: url('../pictures/oscars-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 h1 {
   text-align: center;
   padding: 5px 5px 5px 5px;
-
 }
 
 h2 {
@@ -28,7 +30,7 @@ ul {
   border-radius: 5%;
   margin: auto;
   width: 500px;
-  height: 500px;
+  height: 600px;
 
 }
 
@@ -107,7 +109,9 @@ ul {
   bottom: 0;
   height: 100vh;
   width: 100vw;
-  background-color: rgb(245, 191, 75);
+  background-image: url('../pictures/oscars-bg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1000;
 
 }
@@ -172,7 +176,9 @@ h5 {
   bottom: 0;
   height: 100dvh;
   width: 100dvw;
-  background-color: rgb(7, 216, 87);
+  background-image: url('../pictures/oscars-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1000;
   display: none;
 
