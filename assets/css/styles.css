@@ -7,7 +7,6 @@ body {
   overflow-x: hidden;
 }
 
-
 h1 {
   text-align: center;
   padding: 5px 5px 5px 5px;
@@ -31,14 +30,12 @@ ul {
 }
 
 .quiz {
-
   text-align: center;
   background-color: gold;
   border-radius: 5%;
   margin: auto;
   width: 500px;
   height: 600px;
-
 }
 
 .btn {
@@ -66,12 +63,10 @@ ul {
   text-align: center;
   cursor: pointer;
   display: none;
-
 }
 
 #next:hover {
   background-color: rgba(255, 217, 0, 0.384);
-
 }
 
 ul {
@@ -98,10 +93,7 @@ ul {
   text-align: center;
   color: black;
   font-size: larger;
-
 }
-
-
 
 #score {
   text-align: center;
@@ -120,7 +112,6 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1000;
-
 }
 
 #welcome-page {
@@ -137,7 +128,6 @@ ul {
 #welcome-reminder {
   position: relative;
   text-align: center;
-
 }
 
 #start-button {
@@ -148,7 +138,6 @@ ul {
   background-color: goldenrod;
   font-size: large;
   color: aliceblue;
-
 }
 
 #submit {
@@ -188,13 +177,10 @@ h5 {
   background-size: cover;
   z-index: 1000;
   display: none;
-
 }
-
 
 #score-end {
   text-align: center;
-
 }
 
 #endtitle {

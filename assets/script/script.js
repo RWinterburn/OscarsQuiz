@@ -1,12 +1,12 @@
 const submit = document.getElementById("submit");
 const result = document.getElementById("show-result");
 const inputs = document.getElementsByTagName("input");
-const start = document.getElementById("start-button")
+const start = document.getElementById("start-button");
 const nameInput = document.getElementById("fname");
 const resultText = {
   // text to display on result
   correct: "Correct! Nice one!",
-  wrong: "Wrong! Better Luck Next Time!",
+  wrong: "Wrong! Better Luck Next Time!"
 };
 
 const goNextMessage = " Here's the next question.";
@@ -19,7 +19,7 @@ const questions = [
       "Jimmy Fallon",
       "Jim Talent",
       "Tom Brady"],
-    correct: 0,
+    correct: 0
   },
   {
     question: "Who won best actor?",
@@ -27,9 +27,9 @@ const questions = [
       "Killem All Merfield",
       "Tony Stark",
       "Cillian Murphy",
-      "Stewie Griffin",
+      "Stewie Griffin"
     ],
-    correct: 2,
+    correct: 2
   },
   {
     question: "who won best actress?",
@@ -38,7 +38,7 @@ const questions = [
       "Emma Stone",
       "Emma Baked",
       "Emma Chonged"],
-    correct: 1,
+    correct: 1
   },
   {
     question: "who won best Director?",
@@ -47,7 +47,7 @@ const questions = [
       "Sir Top'n hat",
       "Chris Noland",
       "Michael Bay"],
-    correct: 0,
+    correct: 0
   },
   {
     question: "Who won best picture?",
@@ -56,14 +56,14 @@ const questions = [
       "Oppenheimer",
       "Barbie",
       "Godzilla Minus One"],
-    correct: 1,
+    correct: 1
   }, {
     question: "Who won best original screenplay?",
     choices: ["Cat In the Hat",
       "Anthony I've fallen",
       "Anatomy I've fallen",
       "Anatomy of a fall"],
-    correct: 3,
+    correct: 3
   },
   {
     question: "Who won best animated feature?",
@@ -71,9 +71,9 @@ const questions = [
       "Zone of Interest",
       "The Boy and Erin",
       "The Boy and The Heron",
-      "Michael Bay and The Exploding Chairs",
+      "Michael Bay and The Exploding Chairs"
     ],
-    correct: 2,
+    correct: 2
   },
   {
     question: "who won best supporting actress?",
@@ -82,7 +82,7 @@ const questions = [
       "Da'Wine Bring Joy Rudolph",
       "Da'Vine Joy Randolph",
       "Emma's stoned"],
-    correct: 2,
+    correct: 2
   },
   {
     question: "who won best visual effects?",
@@ -91,7 +91,7 @@ const questions = [
       "Antman 3",
       "Fast and Furious Family Matters",
       "Jason Quorn Quorn Ultimatum"],
-    correct: 0,
+    correct: 0
   },
   {
     question: "who won best orignal song?",
@@ -100,7 +100,7 @@ const questions = [
       "Billie Ellish",
       "Phineas & Ferb",
       "Ariana Grande Latte"],
-    correct: 1,
+    correct: 1
   },
   {
     question: "what film won the most Oscars?",
@@ -109,8 +109,8 @@ const questions = [
       "Barbie",
       "Poor Things",
       "Saltburn"],
-    correct: 0,
-  },
+    correct: 0
+  }
 
 ];
 
@@ -127,14 +127,14 @@ function showScore() {
 }
 //SHOW QUESTION PULLING FROM LABEL
 function showQuestion() {
-  const questionText = document.getElementById("question")
-  const answers = document.querySelectorAll("label")
-  console.log(questionText)
+  const questionText = document.getElementById("question");
+  const answers = document.querySelectorAll("label");
+  console.log(questionText);
 
   questionText.innerText = questions[currentQuestion].question;
-  console.log(questionText.innerText)
+  console.log(questionText.innerText);
   questionText.innerText = questions[currentQuestion].question;
-  console.log(questionText.innerText)
+  console.log(questionText.innerText);
 
   for (i = 0; i < answers.length; ++i) {
     answers[i].innerText = questions[currentQuestion].choices[i];
@@ -153,7 +153,7 @@ function showName() {
 //evaluate Answer
 function evaluateAnswer() {
   let answer;
-  for (let i = 0; i < inputs.length; ++i) {
+  for (i = 0; i < inputs.length; ++i) {
     //goes through radio and looks for clicked options
     if (inputs[i].checked) {
       if (inputs[i].value == questions[currentQuestion].correct) {
@@ -212,9 +212,9 @@ function nextQuestion() {
 //event listener for submit button
 
 
-//function for name input 
+//function for name input
 start.addEventListener("click", () => {
-  if (nameInput.value !== '') {
+  if (nameInput.value !== "") {
     titlescreen.style.display = "none";
     showQuestion();
     showName();
