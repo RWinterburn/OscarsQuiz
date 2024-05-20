@@ -122,9 +122,8 @@ let score = 0;
 function showScore() {
   const scoreElement = document.getElementById("score");
   scoreElement.innerHTML = `Current Score: <strong>${score}</strong>`;
-
-
 }
+
 //SHOW QUESTION PULLING FROM LABEL
 function showQuestion() {
   const questionText = document.getElementById("question");
@@ -167,14 +166,9 @@ function evaluateAnswer() {
         setTimeout(() => {
           result.innerText = "";
         }, 3000);
-
       }
-
-
     }
   }
-  //questionAnswered = true;
-
 }
 
 submit.addEventListener("click", (e) => {
@@ -188,31 +182,22 @@ submit.addEventListener("click", (e) => {
 
 
 result.addEventListener("click", () => {
-
 })
 
 console.log(inputs);
-
-
-//next question
 
 function nextQuestion() {
   currentQuestion++;
   questionAnswered = false
 
-
   if (currentQuestion < questions.length) {
     showQuestion();
   } else {
     endQuiz()
-    return; //quiz end
+    return;
   }
 }
 
-//event listener for submit button
-
-
-//function for name input
 start.addEventListener("click", () => {
   if (nameInput.value !== "") {
     titlescreen.style.display = "none";
@@ -223,15 +208,11 @@ start.addEventListener("click", () => {
   }
 });
 
-
-
 function endQuiz() {
-
   fname = document.getElementById("fname").value
   endscreen.style.display = "block";
   const scoreEndElement = document.getElementById("score-end");
   scoreEndElement.innerHTML = `${fname} You scored: ${score} out of like 10?`;
-
 }
 
 
@@ -241,10 +222,8 @@ tryAgain.addEventListener("click", () => {
   // Reset the quiz
   score = 0;
   currentQuestion = 0;
-
   endscreen.style.display = "none";
   showQuestion();
-
 });
 
 
