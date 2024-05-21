@@ -32,11 +32,12 @@ ul {
 .quiz {
   align-content: center;
   text-align: center;
-  background-color: gold;
+  background-color: rgba(255, 217, 0, 0.541);
   border-radius: 5%;
   margin: auto;
   width: 500px;
   height: 600px;
+  border: 5px solid black;
 }
 
 .btn {
@@ -84,7 +85,7 @@ ul {
 
 #show-result {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 15px;
@@ -204,6 +205,12 @@ h5 {
   background-color: goldenrod;
 }
 
+#choices {
+  background-color: rgba(253, 194, 0, 0.637);
+  border: solid 2px black;
+  border-radius: 5%;
+}
+
 
 
 @media (max-width: 480px) {
@@ -238,18 +245,19 @@ h5 {
     top: -50px;
     align-content: center;
     text-align: center;
-    background-color: gold;
+    background-color: rgba(255, 217, 0, 0.541);
     border-radius: 5%;
     margin: auto;
     width: 350px;
     height: 500px;
+    border: 5px solid black;
   }
 
   #show-result {
     position: absolute;
     bottom: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -1%);
     font-size: 15px;
     padding: 20px;
     color: aliceblue;

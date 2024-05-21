@@ -1,16 +1,15 @@
 # Oscars Quiz
-
-Winterburn Photography is a website showcasing, recent work by the photographer, giving information about the packages they offer, what work they have recently done shown by a gallery, customer reviews and showing how you can get in touch. In the website the user will learn how to get in touch with the contact page, what equipment can be used and what the results look like with the gallery page, learn what packages are currently on offer with time frames with the amount of hours shown on the page in the package cards and how many photos they can choose to have, on the main index page the user will learn what the website is about and what previous customers have said about their photography experience with Winterburn Photography. [here is the website](https://rwinterburn.github.io/OscarsQuiz/)
+The Oscars quiz is a 10 question quiz testing the users knowledge on The Oscars, it includes a page to enter your name and, multiple choice questions and an ending page rounding up the total score and having the option to try again. The purpose of this quiz is to mainly test the users knowledge on the 2024 Oscars.
 
 # User Stories
-The purpose of the website is to encourage the user to book a photoshoot with the photographer with the contact form, show the user what the photographer has been taking pictures of with the gallery and for the user to learn a bit more about the photographer in general with the main page and show previous experience with customers with the customer reviews. The main target audience will be for people wanting a wedding shoot or headshots but other shoots can be provided.
+The purpose of the Oscars app is to test the users knowledge, it has an enter name input to make it more personal and user friendly also having the option to try again at the end of the quiz 
 
 ### Project goals 
 
-* Show information about the photographer.
-* Show what the photographer has produced.
-* Show different packages on offer for the user.
-* Show how to get in contact with the photographer.
+* Test the users knowledge on the 2024 Oscars
+* Make a bright fun quiz
+* Make the quiz personalized with custom messages
+* Make a fully functioning 10 question quiz
 
 
 # UX Design
@@ -28,29 +27,29 @@ The main design for the website will have the font color in #fff (white) and bac
 
 
  # WireFrames Desktop
-   ![image](add pic here "index wireframe desktop")
+   ![image](documents/index-wireframe.png "index wireframe desktop")
     Here is the wireframe for the main index page, it is a bit different from the final result as the website wasn't mobile friendly at the start so I modified it to make it more mobile friendly. 
 
-   ![image](add pic here "gallery wireframe desktop")
+   ![image](documents/gallery-wireframe.png "gallery wireframe desktop")
     The Gallery wireframe.
 
-   ![image](add pic here "packages wireframe desktop")
+   ![image](documents/about-wireframe.png "packages wireframe desktop")
     Packages/about wireframe desktop.
 
-   ![image](add pic here "contact page wireframe desktop")
+   ![image](documents/contact-wireframe.png "contact page wireframe desktop")
     Contact page wireframe desktop. 
 
 # Wireframes Mobile
-![image](add pic here "index page wireframe mobile")
+![image](documents/index-mobile-wireframe.png "index page wireframe mobile")
 index page wireframe mobile.
 
-![image](add pic here "gallery page wireframe mobile")
+![image](documents/gallery-mobile-wireframe.png "gallery page wireframe mobile")
 Gallery page wireframe mobile.
 
-![image](add pic here "packages page wireframe mobile")
+![image](documents/mobile-packages-wireframe.png "packages page wireframe mobile")
 Packages page wireframe mobile.
 
-![image](add pic here "contact page wireframe mobile")
+![image](documents/contact-mobile-wireframe.png "contact page wireframe mobile")
 Contact page wireframe mobile.
 
 # Features 
@@ -190,3 +189,18 @@ Used Chat.GPT for other sources of information. E.g. correct form format.
 
 ## Image Credits
 From my own camera (Robert Winterburn) 
+
+
+## To Do list
+
+edit read me designed for the project 2,
+make the quiz responsive with media queries 
+make the quiz look better 
+maybe make the quiz h1 element bigger?
+
+
+
+
+
+
+
