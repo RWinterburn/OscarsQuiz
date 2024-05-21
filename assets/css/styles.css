@@ -30,6 +30,7 @@ ul {
 }
 
 .quiz {
+  align-content: center;
   text-align: center;
   background-color: gold;
   border-radius: 5%;
@@ -201,4 +202,111 @@ h5 {
   left: 50%;
   transform: translateX(-50%);
   background-color: goldenrod;
+}
+
+
+
+@media (max-width: 480px) {
+  body {
+    font-family: sans-serif;
+    background-image: url('../pictures/oscars-bg.png');
+    background-repeat: repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  #submit {
+    background-color: goldenrod;
+    font-size: large;
+    color: aliceblue;
+  }
+
+  #submit:hover {
+    background-color: rgb(245, 191, 75);
+    cursor: pointer;
+  }
+
+  .quiz-contain {
+    position: relative;
+    top: 150px;
+    width: 50px;
+  }
+
+  .quiz {
+    position: absolute;
+    top: -50px;
+    align-content: center;
+    text-align: center;
+    background-color: gold;
+    border-radius: 5%;
+    margin: auto;
+    width: 350px;
+    height: 500px;
+  }
+
+  #show-result {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 14px;
+    text-align: center;
+    color: black;
+    font-size: small;
+  }
+
+  #score {
+    text-align: center;
+    top: 1%;
+  }
+
+  #titlescreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../pictures/oscars-bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1000;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  #start-button {
+    position: relative;
+    left: -35%;
+    top: 13%;
+    padding: 5px 5px 5px 5px;
+    background-color: goldenrod;
+    font-size: large;
+    color: aliceblue;
+  }
+
+  #fname {
+    position: relative;
+    left: 10%;
+    top: 5%;
+    padding: 20px;
+    font-size: larger;
+  }
+}
+
+@media (min-width: 768px) {
+  /* CSS rules for tablets */
+}
+
+@media (min-width: 1024px) {
+  /* CSS rules for desktops */
+}
+
+@media (min-width: 1280px) {
+  /* CSS rules for large desktops */
 }
