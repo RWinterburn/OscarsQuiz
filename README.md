@@ -27,30 +27,16 @@ The main design for the website will have the font color in #fff (white) and bac
 
 
  # WireFrames Desktop
-   ![image](documents/index-wireframe.png "index wireframe desktop")
+   ![image](assets/pictures/wireframe-desktop-name.png "Name page wireframe desktop")
     Here is the wireframe for the main index page, it is a bit different from the final result as the website wasn't mobile friendly at the start so I modified it to make it more mobile friendly. 
 
-   ![image](documents/gallery-wireframe.png "gallery wireframe desktop")
+   ![image](assets/pictures/wireframe-oscars-main.png "main quiz wireframe")
     The Gallery wireframe.
 
-   ![image](documents/about-wireframe.png "packages wireframe desktop")
-    Packages/about wireframe desktop.
-
-   ![image](documents/contact-wireframe.png "contact page wireframe desktop")
-    Contact page wireframe desktop. 
+  
 
 # Wireframes Mobile
-![image](documents/index-mobile-wireframe.png "index page wireframe mobile")
-index page wireframe mobile.
 
-![image](documents/gallery-mobile-wireframe.png "gallery page wireframe mobile")
-Gallery page wireframe mobile.
-
-![image](documents/mobile-packages-wireframe.png "packages page wireframe mobile")
-Packages page wireframe mobile.
-
-![image](documents/contact-mobile-wireframe.png "contact page wireframe mobile")
-Contact page wireframe mobile.
 
 # Features 
 
