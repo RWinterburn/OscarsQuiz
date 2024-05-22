@@ -103,9 +103,9 @@ To manual test the contact form you will need to.
 
 ## W3C Validation 
 Managed to fix these few errors by finding the lines of code referenced on the page and removing the stray tags and correctly formating the code. Here are the results. 
-![image](documents/fixed-bugs.png "valid html")
+![image](../OscarsQuiz-5/assets/pictures/w3c-valid-error.png "invalid html")
 
-Here are the validation images for the CSS and HTML ![image](documents/valid-css-html.png "valid css and html")
+Here are the validation images for the HTML ![image](../OscarsQuiz-5/assets/pictures/w3c-valid.png "valid html")
 ![image](documents/valid-css.png "valid css") 
 
 ### Am I Responsive 

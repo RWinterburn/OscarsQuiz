@@ -14,102 +14,122 @@ let questionAnswered = false;
 //QUESTIONS ARRAY
 const questions = [
   {
-    question: "Who hosted the 2024 oscars?",
-    choices: ["Jimmy Kimmel",
+    choices: [
+      "Jimmy Kimmel",
       "Jimmy Fallon",
       "Jim Talent",
       "Tom Brady"],
-    correct: 0
+    correct: 0,
+    question: "Who hosted the 2024 oscars?"
+
+
   },
   {
-    question: "Who won best actor?",
     choices: [
       "Killem All Merfield",
       "Tony Stark",
       "Cillian Murphy",
-      "Stewie Griffin"
-    ],
-    correct: 2
+      "Stewie Griffin"],
+    correct: 2,
+    question: "Who won best actor?"
   },
   {
-    question: "who won best actress?",
     choices: [
       "Emma Stoned",
       "Emma Stone",
       "Emma Baked",
       "Emma Chonged"],
-    correct: 1
+
+    correct: 1,
+    question: "who won best actress?"
   },
   {
-    question: "who won best Director?",
     choices: [
       "Christopher Nolan",
       "Sir Top'n hat",
       "Chris Noland",
       "Michael Bay"],
-    correct: 0
+
+    correct: 0,
+    question: "who won best Director?"
   },
   {
-    question: "Who won best picture?",
     choices: [
       "Poor Things",
       "Oppenheimer",
       "Barbie",
       "Godzilla Minus One"],
-    correct: 1
+
+    correct: 1,
+    question: "Who won best picture?"
+
+
   }, {
-    question: "Who won best original screenplay?",
-    choices: ["Cat In the Hat",
+    choices: [
+      "Cat In the Hat",
       "Anthony I've fallen",
       "Anatomy I've fallen",
       "Anatomy of a fall"],
-    correct: 3
+    correct: 3,
+    question: "Who won best original screenplay?"
+
+
   },
   {
-    question: "Who won best animated feature?",
     choices: [
       "Zone of Interest",
       "The Boy and Erin",
       "The Boy and The Heron",
       "Michael Bay and The Exploding Chairs"
     ],
-    correct: 2
+    correct: 2,
+    question: "Who won best animated feature?"
+
+
   },
   {
-    question: "who won best supporting actress?",
     choices: [
       "Jennifer Lawrence",
       "Da'Wine Bring Joy Rudolph",
       "Da'Vine Joy Randolph",
       "Emma's stoned"],
-    correct: 2
+    correct: 2,
+    question: "who won best supporting actress?"
+
+
   },
   {
-    question: "who won best visual effects?",
     choices: [
       "Godzilla Minus One",
       "Antman 3",
       "Fast and Furious Family Matters",
       "Jason Quorn Quorn Ultimatum"],
-    correct: 0
+    correct: 0,
+    question: "who won best visual effects?"
+
+
   },
   {
-    question: "who won best orignal song?",
     choices: [
       "Bill Hader",
       "Billie Ellish",
       "Phineas & Ferb",
       "Ariana Grande Latte"],
-    correct: 1
+    correct: 1,
+    question: "who won best orignal song?"
+
+
   },
   {
-    question: "what film won the most Oscars?",
     choices: [
       "Oppenheimer",
       "Barbie",
       "Poor Things",
       "Saltburn"],
-    correct: 0
+    correct: 0,
+    question: "what film won the most Oscars?"
+
+
   }
 
 ];
