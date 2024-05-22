@@ -72,6 +72,12 @@ The main design for the website will have the font color in #fff (white) and bac
 
 # Manual testing 
 
+| First Header  | Second Header | Third Header |
+| ------------- | ------------- | ------------ |
+| Content Cell  | Content Cell  |              |
+| Content Cell  | Content Cell  |              |
+
+
 ### Navigation Bar
 To manual test the navigation bar links you will need to click on the navigation bar links and see if they take you to the right page.
 * Gallery should take you to the "gallery page" where you will see the gallery and equipment list.
@@ -108,18 +114,28 @@ Managed to fix these few errors by finding the lines of code referenced on the p
 Here are the validation images for the HTML ![image](../OscarsQuiz-5/assets/pictures/w3c-valid.png "valid html")
 ![image](documents/valid-css.png "valid css") 
 
+### JSHint
+![Image](assets/pictures/jshint-errors.png)
+
+![Image](assets/pictures/jshint.png)
+
 ### Am I Responsive 
 ![image](documents/am-i-responsive.png)
 
 ### Lighthouse Report 
-![image](documents/lighthouse-report.png)
-Lighthouse report looks good on everything except for performance, this will be due to the raw image sizes unfortunately but everything else looks good.
+![image](../OscarsQuiz-5/assets/pictures/lighthouse.png)
+Lighthouse report looks good on this.
 
 # Challenges and Bugs
 The only bugs I got were unclosed elements and stray tags. Some titles weren't formatted correctly which you can see here.
-At first the webpage was not valid as seen by this screenshot here ![image](documents/errors-validation.png "errors validation")
+At first the webpage was not valid as seen by this screenshot here ![image](../bugs-1.png)
 
-I ran into another problem on my Github, I had made a previous account called "Twinwinter" on my email address robertwinterburn@hotmail.co.uk and I had made a new account to make my name a bit more professional and readable (RWinterburn) but when I started making commits they came from "Twinwinter" on one and "RWinterburn" from another I don't know wether it was to do with me from switching from gitpod.io and codeanywhere to VScode need to figure this problem out for future developments as I haven't figured it out yet. So you will see commits from both of my Github accounts.
+![Image](assets/pictures/bug-2.png)
+
+![Image](assets/pictures/script-error.png)
+
+![Image](assets/pictures/script-fix.png)
+I ran into another problem again on my Github, I had made a previous account called "Twinwinter" on my email address robertwinterburn@hotmail.co.uk and I had made a new account to make my name a bit more professional and readable (RWinterburn) but when I started making commits they came from "Twinwinter" on one and "RWinterburn" from another I don't know wether it was to do with me from switching from gitpod.io and codeanywhere to VScode need to figure this problem out for future developments as I haven't figured it out yet. So you will see commits from both of my Github accounts.
 
 # Deployment and Development 
 
