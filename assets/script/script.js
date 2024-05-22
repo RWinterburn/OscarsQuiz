@@ -171,7 +171,6 @@ function showName() {
 
 //evaluate Answer
 function evaluateAnswer() {
-  let answer;
   for (let i = 0; i < inputs.length; ++i) {
     //goes through radio and looks for clicked options
     if (inputs[i].checked) {
