@@ -1,3 +1,5 @@
+const titlescreen = document.getElementById("titlescreen");
+const endscreen = document.getElementById("endscreen");
 const submit = document.getElementById("submit");
 const result = document.getElementById("show-result");
 const inputs = document.getElementsByTagName("input");
@@ -170,7 +172,7 @@ function showName() {
 //evaluate Answer
 function evaluateAnswer() {
   let answer;
-  for (i = 0; i < inputs.length; ++i) {
+  for (let i = 0; i < inputs.length; ++i) {
     //goes through radio and looks for clicked options
     if (inputs[i].checked) {
       if (inputs[i].value == questions[currentQuestion].correct) {
@@ -197,18 +199,18 @@ submit.addEventListener("click", (e) => {
 });
 
 result.addEventListener("click", () => {
-})
+});
 
 console.log(inputs);
 
 function nextQuestion() {
   currentQuestion++;
-  questionAnswered = false
+  questionAnswered = false;
 
   if (currentQuestion < questions.length) {
     showQuestion();
   } else {
-    endQuiz()
+    endQuiz();
     return;
   }
 }
@@ -223,14 +225,15 @@ start.addEventListener("click", () => {
   }
 });
 
+
 function endQuiz() {
-  fname = document.getElementById("fname").value
+  const fname = document.getElementById("fname").value;
   endscreen.style.display = "block";
   const scoreEndElement = document.getElementById("score-end");
   scoreEndElement.innerHTML = `${fname} You scored: ${score} out of like 10?`;
 }
 
-let tryAgain = document.getElementById("tryAgain")
+let tryAgain = document.getElementById("tryAgain");
 
 tryAgain.addEventListener("click", () => {
   // Reset the quiz
@@ -239,11 +242,3 @@ tryAgain.addEventListener("click", () => {
   endscreen.style.display = "none";
   showQuestion();
 });
-
-
-
-
-
-
-
-
