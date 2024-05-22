@@ -82,7 +82,7 @@ const questions = [
       "Zone of Interest",
       "The Boy and Erin",
       "The Boy and The Heron",
-      "Michael Bay and The Exploding Chairs"
+      "Michael Bay, Bay Watch"
     ],
     correct: 2,
     question: "Who won best animated feature?"
