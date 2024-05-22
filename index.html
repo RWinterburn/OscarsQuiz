@@ -19,11 +19,11 @@
     <input type="text" id="fname" name="fname">
     <button id="start-button">Start</button>
   </section>
-  <section class="quiz-contain">
+  <div class="quiz-contain">
 
     <section class="quiz">
-      <h1>Oscars Quiz</h1>
-      <h3 id="name"> </h3>
+      <h2>Oscars Quiz</h2>
+      <h3 id="name">Name</h3>
 
       <h2 id="score">Current Score: </h2>
       <h2 id="question">Question</h2>
@@ -32,29 +32,29 @@
 
         <li id="choice1">
           <label for="answer1">Choice 1</label>
-          <input type="radio" name="quiz-answer" value="0" />
+          <input type="radio" name="quiz-answer" value="0" id="answer1">
         </li>
 
         <li id="choice2">
           <label for="answer2">Choice 2</label>
-          <input type="radio" name="quiz-answer" value="1" />
+          <input type="radio" name="quiz-answer" value="1" id="answer2">
         </li>
 
         <li id="choice3">
           <label for="answer3">Choice 3</label>
-          <input type="radio" name="quiz-answer" value="2" />
+          <input type="radio" name="quiz-answer" value="2" id="answer3">
         </li>
 
         <li id="choice4">
           <label for="answer4">Choice 4</label>
-          <input type="radio" name="quiz-answer" value="3" />
+          <input type="radio" name="quiz-answer" value="3" id="answer4">
         </li>
       </ul>
 
       <button id="submit" name="quiz-answer">Submit</button>
 
     </section>
-  </section>
+  </div>
 
   <div id="show-result">
   </div>

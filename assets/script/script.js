@@ -147,8 +147,6 @@ function showName() {
   document.getElementById("name").innerHTML = `Name: <strong>${fname}</strong>`;
 }
 
-
-
 //evaluate Answer
 function evaluateAnswer() {
   let answer;
@@ -177,9 +175,6 @@ submit.addEventListener("click", (e) => {
   nextQuestion();
   showScore();
 });
-
-
-
 
 result.addEventListener("click", () => {
 })

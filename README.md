@@ -14,10 +14,10 @@ The purpose of the Oscars app is to test the users knowledge, it has an enter na
 
 # UX Design
 
-The site objectives are to showcase what Winterburn Photography can provide with a Gallery and equipment list also to show users where they can get in touch if they want any photos taken in the future and also a package list to show what different photography packages that the company has to offer. 
+The site is a simple design with the quiz card in the middle with all the information on there, then in the background I've photoshopped some actors into the background. 
 
 
-To achieve the websites objectives to navigate through the different pages of the website it will need a Navigation bar, I've included a Header with a clickable link to take you back to the main page aswell. The website also needs a gallery section to showcase the photographers work with an information bar underneath the gallery section to show what equipment the company has to offer. It will also need a contact form for the users to communicate directly with the owner to organise a photo shoot. Package cards will also be created to show the user what different packages the company has on offer.
+To achieve the websites objectives to navigate through the different pages of the website I have added different sections in the html file instead of different pages though this may change the language mainly used for this project is javascript jquery the html file is very sparse because the logic i've used is that the javascript renders what is put into the html file using JQuery
 
 The information will be displayed on the dark background elements to make it stand out from the main background image of the website.
 The main design for the website will have the font color in #fff (white) and background elements in rgba(26, 24, 21, 0.733) (Dark black) to make the text stand out and be visually appealing the main body of the page will feature an image taken by the photographer to make it more streamlined for the companies purpose. The main font will be "poppins" because that is a common and nice font family. For the mobile design all content will be centered so it is an easy scrollable experience for the user and the desktop page will be more spaced out between elements so the seperate content can breathe a little. 
@@ -54,16 +54,18 @@ The main design for the website will have the font color in #fff (white) and bac
 
 # Technologies Used 
 * Google Fonts
-* Balsamiq WireFrames
+* Adobe PhotoShop
 * HTML 
 * CSS
 * VSCode
 * Code Anywhere 
-* Gitpod.io
+* Blackbox AI
 * Github.com
 * Git
 * Font Awesome
 * Am I Reponsive
+* Jquery
+* Javascript
 
 
 
@@ -160,22 +162,12 @@ For future development go to https://github.com/RWinterburn/PP1
 * You may get the option saying "Do you trust this author? click Yes"
 
 # Tutorials Used
-https://www.youtube.com/watch?v=Trw_9lisYVY&t=45s for the gallery
 
-The HTML gallery being off center found code from https://blog.hubspot.com/website/center-div-css
-
-Old design of scrollable gallery code was found on here https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp
-
-Found solution for page not scrolling here https://www.quora.com/Why-cant-I-scroll-on-my-HTML-website-1#:~:text=There%20are%20a%20few%20possible%20reasons%20why%20you%20are%20not,%2Dheight'%20set%20too%20low.
-
-Fixed background image changing on different page using "background attachment fixed" found this line of code on
-https://www.w3schools.com/cssref/pr_background-position.php
-
-Used Chat.GPT for other sources of information. E.g. correct form format.
 
 ## Image Credits
-From my own camera (Robert Winterburn) 
-
+Oscars picture: https://in.pinterest.com/pin/academy-awards-png-academy-awards-artwork-award-clip-art-download--803048177290626601/
+Cillian Murphy original picture: https://www.bbc.co.uk/news/entertainment-arts-68531669
+Emma Watson orignal picture: https://people.com/oscars-2024-emma-stone-red-carpet-photos-8604131
 
 ## To Do list
 
