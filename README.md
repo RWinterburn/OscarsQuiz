@@ -152,11 +152,11 @@ To deploy the website the user must
 * Click on the yellow circle on the page repository.
 * You will see the backend working on building the website when this is complete go to "settings"
 * Click "pages" 
-* You should see the website link https://rwinterburn.github.io/PP1/
+* You should see the website link https://rwinterburn.github.io/OscarsQuiz
 * Click on the link and you will see the website.
 
 ### Development 
-For future development go to https://github.com/RWinterburn/PP1
+For future development go to https://github.com/RWinterburn/OscarsQuiz
 * Click the green "code" button.
 * Copy the URL
 * Go to your cloud based coding site. e.g. Code Anywhere or Gitpod.io
@@ -165,7 +165,7 @@ For future development go to https://github.com/RWinterburn/PP1
 * Click create and it will create the code space for you.
 
 #### VSCode Development
-For future development go to https://github.com/RWinterburn/PP1
+For future development go to https://github.com/RWinterburn/OscarsQuiz
 * Click the green "code" button.
 * Copy the URL
 * Open "command palette in VSCode (CTRL + SHIFT + P)
@@ -182,8 +182,12 @@ For future development go to https://github.com/RWinterburn/PP1
 
 ## Image Credits
 Oscars picture: https://in.pinterest.com/pin/academy-awards-png-academy-awards-artwork-award-clip-art-download--803048177290626601/
+
+
 Cillian Murphy original picture: https://www.bbc.co.uk/news/entertainment-arts-68531669
-Emma Watson orignal picture: https://people.com/oscars-2024-emma-stone-red-carpet-photos-8604131
+
+
+Emma Stone orignal picture: https://people.com/oscars-2024-emma-stone-red-carpet-photos-8604131
 
 ## To Do list
 
