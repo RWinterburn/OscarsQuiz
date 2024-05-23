@@ -182,12 +182,7 @@ https://stackoverflow.com/questions/10335231/javascript-equivalent-of-inputname-
 
 * Emma Stone orignal picture: https://people.com/oscars-2024-emma-stone-red-carpet-photos-8604131
 
-## To Do list
 
-edit read me designed for the project 2,
-make the quiz responsive with media queries 
-make the quiz look better 
-maybe make the quiz h1 element bigger?
 
 
 
