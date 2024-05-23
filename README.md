@@ -21,23 +21,23 @@ The purpose of the Oscars app is to test the users knowledge, it has an enter na
 
 # UX Design
 
-The site is a simple design with the quiz card in the middle with all the information on there, then in the background I've photoshopped some actors into the background. 
+The site is a simple design with the quiz card in the middle with all the information on there, then in the background I've photoshopped some actors into the background.
 
 
 To achieve the websites objectives to navigate through the different pages of the website I have added different sections in the html file instead of different pages though this may change the language mainly used for this project is javascript jquery the html file is very sparse because the logic i've used is that the javascript renders what is put into the html file using JQuery
 
-The information will be displayed on the dark background elements to make it stand out from the main background image of the website.
-The main design for the website will have the font color in #fff (white) and background elements in rgba(26, 24, 21, 0.733) (Dark black) to make the text stand out and be visually appealing the main body of the page will feature an image taken by the photographer to make it more streamlined for the companies purpose. The main font will be "poppins" because that is a common and nice font family. For the mobile design all content will be centered so it is an easy scrollable experience for the user and the desktop page will be more spaced out between elements so the seperate content can breathe a little. 
+
+The main design for the website will have the font color in black and background elements in will be golden to match the theme of the oscars (Dark black) to make the text stand out and be visually appealing the main body of the page will feature images on the background of actors to make it more streamlined for the applications purpose. 
 
 
 
 
 
  # WireFrames Desktop
-   ![image](assets/docs/imgdocs/ "Name page wireframe desktop")
+   ![Image](assets/docs/imgdocs/wireframe-oscars-main.png "Name page wireframe desktop")
     Here is the wireframe for the main index page, it is a bit different from the final result as the website wasn't mobile friendly at the start so I modified it to make it more mobile friendly. 
 
-   ![image](assets/pictures/wireframe-oscars-main.png "main quiz wireframe")
+   ![Image](assets/docs/imgdocs/wireframe-desktop-name.png "main quiz wireframe")
     The Gallery wireframe.
 
   
@@ -48,9 +48,9 @@ The main design for the website will have the font color in #fff (white) and bac
 # Features 
 
 1. Navigation bar at the top of the webpage, to navigate around the seperate pages on the website.
-   ![image](documents/nav-bar.jpg "navigation bar")
+   ![Image](documents/nav-bar.jpg "navigation bar")
 2. permanent footer at the bottom of the page to display the copyright and social media links that open up with seperate tabs using the target \_blank attribute.
-   ![image](documents/footer.jpg "footer")
+   ![Image](documents/footer.jpg "footer")
 3. A contact form to get in touch with the company including name, email and message with the form set to required so the user can't send blank messages name or invalid email address. The original structure of the form was borrowed from chat.gpt but the whole styling got changed due to aesthetic not fitting with the webpage. Responsive on different devices, Achieved by media queries.
    ![image](documents/form.jpg "form")
 4. A gallery so the user can look at the recent images that the company has produced and encourages the user to have more incentive to get in touch with the company. The gallery is fully responsive on all devices.
@@ -79,7 +79,7 @@ The main design for the website will have the font color in #fff (white) and bac
 
 # Manual testing 
 
-| First Header  | Second Header | Third Header |
+| Action        | purpose       |    Outcome   |
 | ------------- | ------------- | ------------ |
 | Content Cell  | Content Cell  |              |
 | Content Cell  | Content Cell  |              |
@@ -116,7 +116,7 @@ To manual test the contact form you will need to.
 
 ## W3C Validation 
 Managed to fix these few errors by finding the lines of code referenced on the page and removing the stray tags and correctly formating the code. Here are the results. 
-![image](../OscarsQuiz-5/assets/pictures/w3c-valid-error.png "invalid html")
+![Image](../OscarsQuiz-5/assets/pictures/w3c-valid-error.png "invalid html")
 
 Here are the validation images for the HTML ![image](../OscarsQuiz-5/assets/pictures/w3c-valid.png "valid html")
 ![image](documents/valid-css.png "valid css") 
@@ -124,7 +124,7 @@ Here are the validation images for the HTML ![image](../OscarsQuiz-5/assets/pict
 ### JSHint
 ![Image](assets/docs/imgdocs/jshint-errors.png)
 
-![Image](assets/docs/imgdocs/jshint.png)
+![image](assets/docs/imgdocs/jshint.png)
 
 ### Am I Responsive 
 ![image](documents/am-i-responsive.png)
@@ -138,11 +138,11 @@ The only bugs I got were unclosed elements and stray tags. Some titles weren't f
 At first the webpage was not valid as seen by this screenshot here ![image](../bugs-1.png)
 Couldn't figure out a solution for the option counter not restarting on each question/
 
-![Image](assets/pictures/bug-2.png)
+![Image](assets/docs/imgdocs/bugs-1.png)
 
-![Image](assets/pictures/script-error.png)
+![Image](assets/docs/imgdocs/script-error.png)
 
-![Image](assets/pictures/script-fix.png)
+![Image](assets/docs/imgdocs/script-fix.png)
 I ran into another problem again on my Github, I had made a previous account called "Twinwinter" on my email address robertwinterburn@hotmail.co.uk and I had made a new account to make my name a bit more professional and readable (RWinterburn) but when I started making commits they came from "Twinwinter" on one and "RWinterburn" from another I don't know wether it was to do with me from switching from gitpod.io and codeanywhere to VScode need to figure this problem out for future developments as I haven't figured it out yet. So you will see commits from both of my Github accounts.
 
 # Deployment and Development 
