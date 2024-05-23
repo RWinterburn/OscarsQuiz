@@ -83,7 +83,9 @@ The main design for the website will have the font color in black and background
 |:-------------|:--------------:|--------------:|
 | Enter user name| To go onto next page      | works      |
 | Click submit      | to go onto next page       | works       |
-| Left 3       | Center 3       | Right 3       |
+| Click submit on quiz      | Evaluates score    | works       |
+| Click submit on quiz | Moves to next question | works |
+| Click try again on quiz | goes to quiz start | works | 
 
 
 ### Navigation Bar
