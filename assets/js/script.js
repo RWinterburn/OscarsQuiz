@@ -14,6 +14,7 @@ const resultText = {
 
 const goNextMessage = " Here's the next question.";
 let questionAnswered = false;
+
 //QUESTIONS ARRAY
 const questions = [
   {
@@ -226,7 +227,9 @@ start.addEventListener("click", () => {
     alert("Please enter your name!");
   }
 });
-
+/*
+*End of blackbox ai assisted
+*/
 
 function endQuiz() {
   const fname = document.getElementById("fname").value;
@@ -245,8 +248,3 @@ tryAgain.addEventListener("click", () => {
   showQuestion();
 });
 
-const resetButton = document.getElementById("reset-button");
-
-resetButton.addEventListener("click", () => {
-
-});

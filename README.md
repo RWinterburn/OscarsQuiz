@@ -48,13 +48,13 @@ The main design for the website will have the font color in black and background
 # Features 
 
 1. A Name bar where the username is required to move onto the next stage of the quiz.
-   ![Image](assets/docs/imgdocs/emptyName.png)
+   ![Image](assets/docs/imgdocs/empty-name.png)
 2. A right/wrong answer message depending on if the user got the answer correct or not.
-   ![Image](assets/docs/imgdocs/wronganswer.png)
+   ![Image](assets/docs/imgdocs/wrong-answer.png)
 3. A try again button and score round up at the end of the quiz to show the total score for the user.
-   ![image](assets/docs/imgdocs/tryagain.png)
+   ![image](assets/docs/imgdocs/try-again.png)
 4. A feature using jquery to show the name on the users quiz card when they are playing the quiz. It also shows up at the end aswell.
-   ![image](assets/docs/imgdocs/nameEntered.png)
+   ![image](assets/docs/imgdocs/name-entered.png)
 
 ## Future features
  For the future features I would like to add a shop page to the website where the user can click on the image and buy the image from the website and for it to be printed onto a canvas.
@@ -114,8 +114,8 @@ Lighthouse report looks good on this.
 # Challenges and Bugs
 The only bugs I got were unclosed elements and stray tags. Some titles weren't formatted correctly which you can see here.
 At first the webpage was not valid as seen by this screenshot here 
-![Image](assets/docs/imgdocs/jestBug.png)
-![Image](assets/docs/imgdocs/JestBugtwo.png)
+![Image](assets/docs/imgdocs/jest-bug.png)
+![Image](assets/docs/imgdocs/Jest-bug-two.png)
 
 I also ran into a script error which I managed to solve with some research.
 ![Image](assets/docs/imgdocs/script-error.png)
