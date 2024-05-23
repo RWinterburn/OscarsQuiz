@@ -79,11 +79,33 @@ The main design for the website will have the font color in black and background
 
 # Manual testing 
 
-| Action        | Purpose       |    Outcome   |
-| ------------- | ------------- | ------------ |
-| Type name into input bar to display on next page   |  | to display user name | WORKS CORRECTLY
-| Content Cell  | Content Cell  |              |
-
+|
+ Action        
+|
+ Purpose                 
+|
+ Outcome   
+|
+|
+-------------
+|
+-----------------------
+|
+---------
+|
+|
+ Type name into input bar to display on next page   
+|
+ to display user name 
+|
+ WORKS CORRECTLY 
+|
+|
+ Content Cell  
+|
+ Content Cell            
+|
+|
 
 ### Navigation Bar
 To manual test the navigation bar links you will need to click on the navigation bar links and see if they take you to the right page.
