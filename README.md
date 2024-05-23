@@ -47,14 +47,14 @@ The main design for the website will have the font color in black and background
 
 # Features 
 
-1. Navigation bar at the top of the webpage, to navigate around the seperate pages on the website.
-   ![Image](documents/nav-bar.jpg "navigation bar")
-2. permanent footer at the bottom of the page to display the copyright and social media links that open up with seperate tabs using the target \_blank attribute.
-   ![Image](documents/footer.jpg "footer")
-3. A contact form to get in touch with the company including name, email and message with the form set to required so the user can't send blank messages name or invalid email address. The original structure of the form was borrowed from chat.gpt but the whole styling got changed due to aesthetic not fitting with the webpage. Responsive on different devices, Achieved by media queries.
-   ![image](documents/form.jpg "form")
-4. A gallery so the user can look at the recent images that the company has produced and encourages the user to have more incentive to get in touch with the company. The gallery is fully responsive on all devices.
-   ![image](documents/gallery-updated.jpg "gallery")
+1. A Name bar where the username is required to move onto the next stage of the quiz.
+   ![Image](assets/docs/imgdocs/emptyName.png)
+2. A right/wrong answer message depending on if the user got the answer correct or not.
+   ![Image](assets/docs/imgdocs/wronganswer.png)
+3. A try again button and score round up at the end of the quiz to show the total score for the user.
+   ![image](assets/docs/imgdocs/tryagain.png)
+4. A feature using jquery to show the name on the users quiz card when they are playing the quiz. It also shows up at the end aswell.
+   ![image](assets/docs/imgdocs/nameEntered.png)
 
 ## Future features
  For the future features I would like to add a shop page to the website where the user can click on the image and buy the image from the website and for it to be printed onto a canvas.
@@ -113,14 +113,15 @@ Lighthouse report looks good on this.
 
 # Challenges and Bugs
 The only bugs I got were unclosed elements and stray tags. Some titles weren't formatted correctly which you can see here.
-At first the webpage was not valid as seen by this screenshot here ![image](../bugs-1.png)
-Couldn't figure out a solution for the option counter not restarting on each question/
-
+At first the webpage was not valid as seen by this screenshot here 
 ![Image](assets/docs/imgdocs/jestBug.png)
 ![Image](assets/docs/imgdocs/JestBugtwo.png)
+
+I also ran into a script error which I managed to solve with some research.
 ![Image](assets/docs/imgdocs/script-error.png)
 
 ![Image](assets/docs/imgdocs/script-fix.png)
+
 I ran into another problem again on my Github, I had made a previous account called "Twinwinter" on my email address robertwinterburn@hotmail.co.uk and I had made a new account to make my name a bit more professional and readable (RWinterburn) but when I started making commits they came from "Twinwinter" on one and "RWinterburn" from another I don't know wether it was to do with me from switching from gitpod.io and codeanywhere to VScode need to figure this problem out for future developments as I haven't figured it out yet. So you will see commits from both of my Github accounts.
 
 # Deployment and Development 
@@ -163,7 +164,13 @@ For future development go to https://github.com/RWinterburn/OscarsQuiz
 * Select the repository destination and the workspace will click open. 
 * You may get the option saying "Do you trust this author? click Yes"
 
-# Tutorials Used
+# Tutorials Used & external code implimented
+Code has been partially used from these websites, most of the time when I first implimented it it wouldn't work as intended until I changed the parameters.
+Black box Ai: https://www.blackbox.ai/
+W3Schools:
+https://www.w3schools.com/howto/howto_css_custom_checkbox.asp
+Stackoverflow: 
+https://stackoverflow.com/questions/10335231/javascript-equivalent-of-inputname-value-in-jquery
 
 
 ## Image Credits
