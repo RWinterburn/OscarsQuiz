@@ -86,7 +86,9 @@ The main design for the website will have the font color in black and background
 | Click submit on quiz      | Evaluates score    | works       |
 | Click submit on quiz | Moves to next question | works |
 | Click try again on quiz | goes to quiz start | works | 
-
+| User doesn't enter name | Alert shows | works |
+| User gets question wrong | Score stays same | works |
+| User gets question right | Score increases | works |
 
 ### Navigation Bar
 To manual test the navigation bar links you will need to click on the navigation bar links and see if they take you to the right page.
