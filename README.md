@@ -79,9 +79,9 @@ The main design for the website will have the font color in black and background
 
 # Manual testing 
 
-| Action        | purpose       |    Outcome   |
+| Action        | Purpose       |    Outcome   |
 | ------------- | ------------- | ------------ |
-| Content Cell  | Content Cell  |              |
+| Type name into input bar     |  |              |
 | Content Cell  | Content Cell  |              |
 
 
