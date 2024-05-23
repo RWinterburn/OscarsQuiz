@@ -122,15 +122,15 @@ Here are the validation images for the HTML ![image](../OscarsQuiz-5/assets/pict
 ![image](documents/valid-css.png "valid css") 
 
 ### JSHint
-![Image](assets/pictures/jshint-errors.png)
+![Image](assets/docs/imgdocs/jshint-errors.png)
 
-![Image](assets/pictures/jshint.png)
+![Image](assets/docs/imgdocs/jshint.png)
 
 ### Am I Responsive 
 ![image](documents/am-i-responsive.png)
 
 ### Lighthouse Report 
-![image](../OscarsQuiz-5/assets/pictures/lighthouse.png)
+![image](assets/docs/imgdocs/lighthouse.png)
 Lighthouse report looks good on this.
 
 # Challenges and Bugs
@@ -189,13 +189,13 @@ For future development go to https://github.com/RWinterburn/OscarsQuiz
 
 
 ## Image Credits
-Oscars picture: https://in.pinterest.com/pin/academy-awards-png-academy-awards-artwork-award-clip-art-download--803048177290626601/
+* Oscars picture: https://in.pinterest.com/pin/academy-awards-png-academy-awards-artwork-award-clip-art-download--803048177290626601/
 
 
-Cillian Murphy original picture: https://www.bbc.co.uk/news/entertainment-arts-68531669
+* Cillian Murphy original picture: https://www.bbc.co.uk/news/entertainment-arts-68531669
 
 
-Emma Stone orignal picture: https://people.com/oscars-2024-emma-stone-red-carpet-photos-8604131
+* Emma Stone orignal picture: https://people.com/oscars-2024-emma-stone-red-carpet-photos-8604131
 
 ## To Do list
 
