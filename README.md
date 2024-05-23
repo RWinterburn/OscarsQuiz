@@ -90,34 +90,7 @@ The main design for the website will have the font color in black and background
 | User gets question wrong | Score stays same | works |
 | User gets question right | Score increases | works |
 
-### Navigation Bar
-To manual test the navigation bar links you will need to click on the navigation bar links and see if they take you to the right page.
-* Gallery should take you to the "gallery page" where you will see the gallery and equipment list.
-* Packages should take you to the "packages page" where you will see the different packages on offer for the website.
-* Contact should take you to the "contact page" where you will see the contact form and contact numbers and address for the company.
-* To get back to the main page you will need to click on "Winterburn Photography" in the header and that should take you back to the main page. 
-* They should work on each indvidual page you click on.
 
-### Footer links 
-To manual test the footer links, you should click on the footer logos.
-* The Facebook logo should take you to Facebook.
-* The Instagram logo should take you to Instagram.
-* The YouTube logo should take you to YouTube.
-
-These should work for all different pages e.g. if they work on the main page they should work for the Gallery page etc.
-
-Note that these will just take you to the landing page as there is no actual social media sites for Winterburn Photography.
-
-### Contact Form
-To manual test the contact form you will need to. 
-* Go to "contact" on the navigation bar
-* Fill out the form with everything filled in including a valid "@" email.
-* If done correctly the form should take you to this page. 
-![image](documents/form-submission.png "form submission message")
-
- * Try send a message without a name if it comes up with "Please fill out this field" then the form is working as it should.
-  * Try send a message without an email if it comes up with "Please fill out this field" then the form is working as it should.
-  * Try send a message without a message if it comes up with "Please fill out this field" then the form is working as it should.
 
 ## W3C Validation 
 Managed to fix these few errors by finding the lines of code referenced on the page and removing the stray tags and correctly formating the code. Here are the results. 
@@ -143,8 +116,8 @@ The only bugs I got were unclosed elements and stray tags. Some titles weren't f
 At first the webpage was not valid as seen by this screenshot here ![image](../bugs-1.png)
 Couldn't figure out a solution for the option counter not restarting on each question/
 
-![Image](assets/docs/imgdocs/bugs-1.png)
-
+![Image](assets/docs/imgdocs/jestBug.png)
+![Image](assets/docs/imgdocs/JestBugtwo.png)
 ![Image](assets/docs/imgdocs/script-error.png)
 
 ![Image](assets/docs/imgdocs/script-fix.png)
