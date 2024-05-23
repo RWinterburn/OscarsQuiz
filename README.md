@@ -81,7 +81,7 @@ The main design for the website will have the font color in black and background
 
 | Action        | Purpose       |    Outcome   |
 | ------------- | ------------- | ------------ |
-| Type name into input bar     |  |              |
+| Type name into input bar to display on next page   |  | to display user name | WORKS CORRECTLY
 | Content Cell  | Content Cell  |              |
 
 
