@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-image: url('../pictures/oscars-bg.png');
+  background-image: url('../imgs/oscars-bg.png');
   background-repeat: repeat;
   background-size: cover;
   overflow-y: hidden;
@@ -110,7 +110,7 @@ ul {
   bottom: 0;
   height: 100vh;
   width: 100vw;
-  background-image: url('../pictures/oscars-bg2.png');
+  background-image: url('../imgs/oscars-bg2.png');
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1000;
@@ -174,7 +174,7 @@ h5 {
   bottom: 0;
   height: 100dvh;
   width: 100dvw;
-  background-image: url('../pictures/oscars-bg.png');
+  background-image: url('../imgs/oscars-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1000;
@@ -216,7 +216,7 @@ h5 {
 @media (max-width: 480px) {
   body {
     font-family: sans-serif;
-    background-image: url('../pictures/oscars-bg.png');
+    background-image: url('../imgs/oscars-bg.png');
     background-repeat: repeat;
     background-size: cover;
     overflow-y: hidden;
@@ -281,7 +281,7 @@ h5 {
     bottom: 0;
     height: 100vh;
     width: 100vw;
-    background-image: url('../pictures/oscars-bg2.png');
+    background-image: url('../imgs/oscars-bg2.png');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1000;

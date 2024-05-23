@@ -4,7 +4,14 @@ The Oscars quiz is a 10 question quiz testing the users knowledge on The Oscars,
 # User Stories
 The purpose of the Oscars app is to test the users knowledge, it has an enter name input to make it more personal and user friendly also having the option to try again at the end of the quiz 
 
-### Project goals 
+### User Goals
+* To learn more about the Oscars
+* To test their knowledge on the Oscars
+* To have fun and enjoy the quiz
+* To have the option to try again if they don't get the top score
+* To have the option to enter their name to make it more personal and user friendly
+
+### Site Owner goals 
 
 * Test the users knowledge on the 2024 Oscars
 * Make a bright fun quiz
@@ -27,7 +34,7 @@ The main design for the website will have the font color in #fff (white) and bac
 
 
  # WireFrames Desktop
-   ![image](assets/pictures/wireframe-desktop-name.png "Name page wireframe desktop")
+   ![image](assets/docs/imgdocs/ "Name page wireframe desktop")
     Here is the wireframe for the main index page, it is a bit different from the final result as the website wasn't mobile friendly at the start so I modified it to make it more mobile friendly. 
 
    ![image](assets/pictures/wireframe-oscars-main.png "main quiz wireframe")
@@ -129,6 +136,7 @@ Lighthouse report looks good on this.
 # Challenges and Bugs
 The only bugs I got were unclosed elements and stray tags. Some titles weren't formatted correctly which you can see here.
 At first the webpage was not valid as seen by this screenshot here ![image](../bugs-1.png)
+Couldn't figure out a solution for the option counter not restarting on each question/
 
 ![Image](assets/pictures/bug-2.png)
 

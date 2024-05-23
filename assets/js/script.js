@@ -5,6 +5,7 @@ const result = document.getElementById("show-result");
 const inputs = document.getElementsByTagName("input");
 const start = document.getElementById("start-button");
 const nameInput = document.getElementById("fname");
+
 const resultText = {
   // text to display on result
   correct: "Correct! Nice one!",
@@ -200,7 +201,6 @@ submit.addEventListener("click", (e) => {
 result.addEventListener("click", () => {
 });
 
-console.log(inputs);
 
 function nextQuestion() {
   currentQuestion++;
@@ -214,6 +214,9 @@ function nextQuestion() {
   }
 }
 
+/*
+*Blackbox ai assisted
+*/
 start.addEventListener("click", () => {
   if (nameInput.value !== "") {
     titlescreen.style.display = "none";
@@ -240,4 +243,10 @@ tryAgain.addEventListener("click", () => {
   currentQuestion = 0;
   endscreen.style.display = "none";
   showQuestion();
+});
+
+const resetButton = document.getElementById("reset-button");
+
+resetButton.addEventListener("click", () => {
+
 });
