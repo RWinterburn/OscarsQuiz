@@ -103,6 +103,10 @@ ul {
   top: 50%;
 }
 
+#titlescreen p {
+  color: aliceblue;
+}
+
 #titlescreen {
   position: absolute;
   top: 0;
@@ -224,6 +228,7 @@ h5 {
     overflow-x: hidden;
   }
 
+
   #submit {
     background-color: goldenrod;
     font-size: large;
@@ -274,7 +279,13 @@ h5 {
     top: 1%;
   }
 
+  #titlescreen p {
+    color: aliceblue;
+    font-size: medium;
+  }
+
   #titlescreen {
+
     position: absolute;
     top: 0;
     left: 0;
@@ -293,7 +304,7 @@ h5 {
   #start-button {
     position: relative;
     left: -35%;
-    top: 13%;
+    top: 15%;
     padding: 5px 5px 5px 5px;
     background-color: goldenrod;
     font-size: large;
@@ -307,16 +318,4 @@ h5 {
     padding: 20px;
     font-size: larger;
   }
-}
-
-@media (min-width: 768px) {
-  /* CSS rules for tablets */
-}
-
-@media (min-width: 1024px) {
-  /* CSS rules for desktops */
-}
-
-@media (min-width: 1280px) {
-  /* CSS rules for large desktops */
 }

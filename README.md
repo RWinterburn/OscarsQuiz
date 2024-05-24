@@ -34,6 +34,11 @@ The main design for the website will have the font color in black and background
 
 
  # WireFrames Desktop
+
+ For the wireframes I didn't have a wireframe designer so I designed the app on Adobe Photoshop.
+
+ ![Image](assets/docs/imgdocs/oscarswireframe.png)
+ Early Wireframe 
    ![Image](assets/docs/imgdocs/wireframe-oscars-main.png "Name page wireframe desktop")
     Here is the wireframe for the main index page, it is a bit different from the final result as the website wasn't mobile friendly at the start so I modified it to make it more mobile friendly. 
 
@@ -81,7 +86,7 @@ The main design for the website will have the font color in black and background
 
 | Action       | Purpose        | Outcome       |
 |:-------------|:--------------:|--------------:|
-| Enter user name| To go onto next page      | works      |
+| Enter user name| To go onto next page & shows name on next page     | works      |
 | Click submit      | to go onto next page       | works       |
 | Click submit on quiz      | Evaluates score    | works       |
 | Click submit on quiz | Moves to next question | works |
