@@ -27,7 +27,7 @@ ul {
 
 .quiz-contain {
   position: relative;
-  top: 150px
+  top: 50px
 }
 
 .quiz {
@@ -86,7 +86,7 @@ ul {
 
 #show-result {
   position: absolute;
-  top: 80%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 15px;
@@ -217,8 +217,109 @@ h5 {
 }
 
 
+@media (max-width: 671px) {
+  body {
+    font-family: sans-serif;
+    background-image: url('../imgs/oscars-bg.png');
+    background-repeat: repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
 
-@media (max-width: 480px) {
+  #submit {
+    background-color: goldenrod;
+    font-size: large;
+    color: aliceblue;
+  }
+
+  #submit:hover {
+    background-color: rgb(245, 191, 75);
+    cursor: pointer;
+  }
+
+  .quiz-contain {
+    position: relative;
+    top: 150px;
+    width: 50px;
+  }
+
+  .quiz {
+    position: absolute;
+    top: -50px;
+    align-content: center;
+    text-align: center;
+    background-color: rgba(255, 217, 0, 0.541);
+    border-radius: 5%;
+    margin: auto;
+    width: 350px;
+    height: 500px;
+    border: 5px solid black;
+  }
+
+  #show-result {
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, -1%);
+    font-size: 10px;
+    padding: 19px;
+    margin: 19px;
+    color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-size: small;
+  }
+
+  #score {
+    text-align: center;
+    top: 1%;
+  }
+
+  #titlescreen p {
+    color: aliceblue;
+    font-size: medium;
+  }
+
+  #titlescreen {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../imgs/oscars-bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1000;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  #start-button {
+    position: relative;
+    left: -35%;
+    top: 15%;
+    padding: 5px 5px 5px 5px;
+    background-color: goldenrod;
+    font-size: large;
+    color: aliceblue;
+  }
+
+  #fname {
+    position: relative;
+    left: 10%;
+    top: 5%;
+    padding: 20px;
+    font-size: larger;
+  }
+}
+
+
+@media (max-width: 671px) {
   body {
     font-family: sans-serif;
     background-image: url('../imgs/oscars-bg.png');
@@ -260,15 +361,15 @@ h5 {
   }
 
   #show-result {
-    position: absolute;
-    bottom: 20%;
+    position: relative;
+    top: 10px;
     left: 50%;
     transform: translate(-50%, -1%);
-    font-size: 15px;
-    padding: 15px;
-    margin: 10px;
+    font-size: 10px;
+    padding: 19px;
+    margin: 19px;
     color: aliceblue;
-    border-radius: 14px;
+    border-radius: 5px;
     text-align: center;
     color: black;
     font-size: small;
@@ -285,7 +386,6 @@ h5 {
   }
 
   #titlescreen {
-
     position: absolute;
     top: 0;
     left: 0;
@@ -303,7 +403,7 @@ h5 {
 
   #start-button {
     position: relative;
-    left: -35%;
+    align-content: center;
     top: 15%;
     padding: 5px 5px 5px 5px;
     background-color: goldenrod;

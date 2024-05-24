@@ -84,7 +84,7 @@ The main design for the website will have the font color in black and background
 
 # Manual testing 
 
-| Action       | Purpose        | Outcome       |
+| Action       | Predicted Outcome        | Outcome       |
 |:-------------|:--------------:|--------------:|
 | Enter user name| To go onto next page & shows name on next page     | works      |
 | Click submit      | to go onto next page       | works       |
@@ -110,7 +110,7 @@ Here are the validation images for the HTML ![image](../OscarsQuiz-5/assets/pict
 ![image](assets/docs/imgdocs/jshint.png)
 
 ### Am I Responsive 
-![image](documents/am-i-responsive.png)
+![image](assets/docs/imgdocs/responsive.png)
 
 ### Lighthouse Report 
 ![image](assets/docs/imgdocs/lighthouse.png)
@@ -126,6 +126,8 @@ I also ran into a script error which I managed to solve with some research.
 ![Image](assets/docs/imgdocs/script-error.png)
 
 ![Image](assets/docs/imgdocs/script-fix.png)
+
+Ran into a bug during media queries on CSS trying to make the start button show on below 320px but I couldn't figure out where I was going wrong.
 
 I ran into another problem again on my Github, I had made a previous account called "Twinwinter" on my email address robertwinterburn@hotmail.co.uk and I had made a new account to make my name a bit more professional and readable (RWinterburn) but when I started making commits they came from "Twinwinter" on one and "RWinterburn" from another I don't know wether it was to do with me from switching from gitpod.io and codeanywhere to VScode need to figure this problem out for future developments as I haven't figured it out yet. So you will see commits from both of my Github accounts.
 

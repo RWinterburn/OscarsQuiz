@@ -163,7 +163,7 @@ function showQuestion() {
     answers[i].innerText = questions[currentQuestion].choices[i];
   }
 }
-
+//show users name
 function showName() {
   const name = document.getElementById("fname");
   const fname = name.value;
