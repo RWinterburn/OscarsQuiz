@@ -37,12 +37,12 @@ The main design for the website will have the font color in black and background
 
  For the wireframes I didn't have a wireframe designer so I designed the app on Adobe Photoshop.
 
- ![Image](assets/docs/imgdocs/oscarswireframe.png)
+ ![image](assets/docs/imgdocs/oscarswireframe.png)
  Early Wireframe 
-   ![Image](assets/docs/imgdocs/wireframe-oscars-main.png "Name page wireframe desktop")
+   ![image](assets/docs/imgdocs/wireframe-oscars-main.png "Name page wireframe desktop")
     Here is the wireframe for the main index page, it is a bit different from the final result as the website wasn't mobile friendly at the start so I modified it to make it more mobile friendly. 
 
-   ![Image](assets/docs/imgdocs/wireframe-desktop-name.png "main quiz wireframe")
+   ![image](assets/docs/imgdocs/wireframe-desktop-name.png "main quiz wireframe")
     The Gallery wireframe.
 
   
@@ -53,9 +53,9 @@ The main design for the website will have the font color in black and background
 # Features 
 
 1. A Name bar where the username is required to move onto the next stage of the quiz.
-   ![Image](assets/docs/imgdocs/empty-name.png)
+   ![image](assets/docs/imgdocs/empty-name.png)
 2. A right/wrong answer message depending on if the user got the answer correct or not.
-   ![Image](assets/docs/imgdocs/wrong-answer.png)
+   ![image](assets/docs/imgdocs/wrong-answer.png)
 3. A try again button and score round up at the end of the quiz to show the total score for the user.
    ![image](assets/docs/imgdocs/try-again.png)
 4. A feature using jquery to show the name on the users quiz card when they are playing the quiz. It also shows up at the end aswell.
@@ -99,13 +99,13 @@ The main design for the website will have the font color in black and background
 
 ## W3C Validation 
 Managed to fix these few errors by finding the lines of code referenced on the page and removing the stray tags and correctly formating the code. Here are the results. 
-![Image](../OscarsQuiz-5/assets/pictures/w3c-valid-error.png "invalid html")
+![image](assets/docs/imgdocs/w3c-valid.png)
 
-Here are the validation images for the HTML ![image](../OscarsQuiz-5/assets/pictures/w3c-valid.png "valid html")
+
 ![image](documents/valid-css.png "valid css") 
 
 ### JSHint
-![Image](assets/docs/imgdocs/jshint-errors.png)
+![image](assets/docs/imgdocs/jshint-errors.png)
 
 ![image](assets/docs/imgdocs/jshint.png)
 
@@ -119,13 +119,15 @@ Lighthouse report looks good on this.
 # Challenges and Bugs
 The only bugs I got were unclosed elements and stray tags. Some titles weren't formatted correctly which you can see here.
 At first the webpage was not valid as seen by this screenshot here 
-![Image](assets/docs/imgdocs/jest-bug.png)
-![Image](assets/docs/imgdocs/Jest-bug-two.png)
+![image](assets/docs/imgdocs/jest-bug.png)
+![image](assets/docs/imgdocs/Jest-bug-two.png)
 
 I also ran into a script error which I managed to solve with some research.
-![Image](assets/docs/imgdocs/script-error.png)
+![image](assets/docs/imgdocs/script-error.png)
 
-![Image](assets/docs/imgdocs/script-fix.png)
+![image](assets/docs/imgdocs/script-fix.png)
+
+Here is also the invalid w3c html test ![image](assets/docs/imgdocs/w3c-valid-error.png)
 
 Ran into a bug during media queries on CSS trying to make the start button show on below 320px but I couldn't figure out where I was going wrong.
 
