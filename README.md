@@ -2,7 +2,7 @@
 The Oscars quiz is a 10 question quiz testing the users knowledge on The Oscars, it includes a page to enter your name and, multiple choice questions and an ending page rounding up the total score and having the option to try again. The purpose of this quiz is to mainly test the users knowledge on the 2024 Oscars.
 
 # User Stories
-The purpose of the Oscars app is to test the users knowledge, it has an enter name input to make it more personal and user friendly also having the option to try again at the end of the quiz 
+The purpose of the Oscars app is to test the users knowledge, it has an enter name input to make it more personal and user friendly also having the option to try again at the end of the quiz.
 
 ### User Goals
 * To learn more about the Oscars
@@ -24,7 +24,7 @@ The purpose of the Oscars app is to test the users knowledge, it has an enter na
 The site is a simple design with the quiz card in the middle with all the information on there, then in the background I've photoshopped some actors into the background.
 
 
-To achieve the websites objectives to navigate through the different pages of the website I have added different sections in the html file instead of different pages though this may change the language mainly used for this project is javascript jquery the html file is very sparse because the logic i've used is that the javascript renders what is put into the html file using JQuery
+To achieve the websites objectives to navigate through the different pages of the website I have added different sections in the html file instead of different pages though this may change the language mainly used for this project is javascript jquery the html file is very sparse because the logic i've used is that the javascript renders what is put into the html file using JQuery.
 
 
 The main design for the website will have the font color in black and background elements in will be golden to match the theme of the oscars (Dark black) to make the text stand out and be visually appealing the main body of the page will feature images on the background of actors to make it more streamlined for the applications purpose. 
@@ -44,11 +44,6 @@ The main design for the website will have the font color in black and background
 
    ![image](assets/docs/imgdocs/wireframe-desktop-name.png "main quiz wireframe")
     The Gallery wireframe.
-
-  
-
-# Wireframes Mobile
-
 
 # Features 
 
@@ -79,9 +74,6 @@ The main design for the website will have the font color in black and background
 * Jquery
 * Javascript
 
-
-
-
 # Manual testing 
 
 | Action       | Predicted Outcome        | Outcome       |
@@ -94,8 +86,6 @@ The main design for the website will have the font color in black and background
 | User doesn't enter name | Alert shows | works |
 | User gets question wrong | Score stays same | works |
 | User gets question right | Score increases | works |
-
-
 
 ## W3C Validation 
 Managed to fix these few errors by finding the lines of code referenced on the page and removing the stray tags and correctly formating the code. Here are the results. 
@@ -175,10 +165,10 @@ For future development go to https://github.com/RWinterburn/OscarsQuiz
 
 # Tutorials Used & external code implimented
 Code has been partially used from these websites, most of the time when I first implimented it it wouldn't work as intended until I changed the parameters.
-Black box Ai: https://www.blackbox.ai/
-W3Schools:
+* Black box Ai: https://www.blackbox.ai/
+* W3Schools:
 https://www.w3schools.com/howto/howto_css_custom_checkbox.asp
-Stackoverflow: 
+* Stackoverflow: 
 https://stackoverflow.com/questions/10335231/javascript-equivalent-of-inputname-value-in-jquery
 
 
